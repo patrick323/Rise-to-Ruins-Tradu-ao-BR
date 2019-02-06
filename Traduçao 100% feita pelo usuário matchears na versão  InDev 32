@@ -4295,7 +4295,7 @@ playSelectedObjectPanel:
     buildRangeHeader:
       text: "Área de Construção"
     buildRange:
-      text: "A áre que esta estrutura gera a partir de seu centro, em todas as direções."
+      text: "A área que esta estrutura gera a partir de seu centro, em todas as direções."
     landDesirabilityHeader:
       text: "Atração"
     landDesirability:
@@ -4461,7 +4461,7 @@ playSelectedObjectPanel:
     text: "$GRE0{amount}% $WHI0Global"
     forceCount: "true"
   buildingSpeed:
-    text: "$GRE0{amount}% $WHI0Countrução"
+    text: "$GRE0{amount}% $WHI0Construção"
   buildRoadSpeed:
     text: "$GRE0{amount}% $WHI0Costrução (Estrada)"
   dismantlingSpeed:
@@ -6344,7 +6344,7 @@ helpTip:
     energyHeader:
       text: "Energia"
     energy:
-      text: "O/A {buildingname}$WHI1 que seus aldeões acabaram de construir utiliza energia. Estruturas que usam energia normalmente precisam ser abastecidas com essência. Você pode gerar essência alimentando um $YEL1Coletor de Essência$WHI0 com $GRE1crilítio$WHI0, que é refinado em $YEL1Cristiladores$WHI0. Formas de vida como monstros, animais e aldeões também liberam um pouco de essência quando mortos. Se você tem um $YEL1Coletor de Essência$WHI0 a essência livre será recolhida e entregue a estruturas que podem utilizá-la."
+      text: "O/A {buildingName}$WHI1 que seus aldeões acabaram de construir utiliza energia. Estruturas que usam energia normalmente precisam ser abastecidas com essência. Você pode gerar essência alimentando um $YEL1Coletor de Essência$WHI0 com $GRE1crilítio$WHI0, que é refinado em $YEL1Cristiladores$WHI0. Formas de vida como monstros, animais e aldeões também liberam um pouco de essência quando mortos. Se você tem um $YEL1Coletor de Essência$WHI0 a essência livre será recolhida e entregue a estruturas que podem utilizá-la."
     ammoHeader:
       text: "Munição"
     ammo:   
@@ -6394,7 +6394,7 @@ helpTip:
     ghostsHeader:
       text: "Fantasmas"
     ghosts:   
-      text: "Às vezes, você pode ressuscitar aldeões mortos! No $YEL1Por do Sol$WHI0 e à $YEL1Noitw$WHI0 você pode ver alguns dos seus aldeões falecidos perambulando pela aldeia. Se você ver um, você pode usar o encantamento de ressureição no fantasma para tentar o trazer de volta à vida!"
+      text: "Às vezes, você pode ressuscitar aldeões mortos! No $YEL1Por do Sol$WHI0 e à $YEL1Noite$WHI0 você pode ver alguns dos seus aldeões falecidos perambulando pela aldeia. Se você ver um, você pode usar o encantamento de ressureição no fantasma para tentar o trazer de volta à vida!"
     villagerStarvingHeader:
       text: "Fome"
     villagerStarvingMale:   
@@ -6470,7 +6470,7 @@ helpTip:
     corruptionHeader:
       text: "Corrupção"
     corruption:   
-      text: "Como você provavelmente já percebeu, seus aldeões não estão sozinhos nesta região! Conforme o tempo passa, $REDa corrupão$WHI0 vai lentamente se expandir e tomar conta do mapa, aumentando o número de monstros e causando problemas. Existem maneiras de afastar a corrupção. $GRE1Muitas estruturas offerecem resistência à corrupção$WHI0, e alta resistência vai impedir que a corrupção se espalhe, e as vezes até fazer ela retrair! Nem todas estruturas resistem à corrupção, sempre dê uma olhada nas suas propriedades."
+      text: "Como você provavelmente já percebeu, seus aldeões não estão sozinhos nesta região! Conforme o tempo passa, $REDa corrupão$WHI0 vai lentamente se expandir e tomar conta do mapa, aumentando o número de monstros e causando problemas. Existem maneiras de afastar a corrupção. $GRE1Muitas estruturas oferecem resistência à corrupção$WHI0, e alta resistência vai impedir que a corrupção se espalhe, e as vezes até fazer ela retrair! Nem todas estruturas resistem à corrupção, sempre dê uma olhada nas suas propriedades."
     seasonAutumnHeader:
       text: "Outono"
     seasonAutumn:   
@@ -6653,7 +6653,7 @@ spell:
     name:
       text: "Regenerar"
     description:
-      text: "Be careful what you cast this on. Cura uma única criatura durante um curto período de tempo. Não funciona em golens, mas funciona em monstros! Cuidado para onde você aponta este encantamento"
+      text: "Cura uma única criatura durante um curto período de tempo. Não funciona em golens, mas funciona em monstros! Cuidado para onde você aponta este encantamento"
             
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Tile Set
@@ -8704,7 +8704,7 @@ object:
         name:
           text: "Coletor de Essência Improvisado"
         description:
-          text: "Atrai e guard essência livre pelo mapa para ser utilizada por outras estruturas. Cristiladores podem o abastecer com crilítio. Você pode sacudir sua mão a sua volta para absorver essência em uma emergência."
+          text: "Atrai e guarda essência livre pelo mapa para ser utilizada por outras estruturas. Cristiladores podem o abastecer com crilítio. Você pode sacudir sua mão a sua volta para absorver essência em uma emergência."
       base:
         name:
           text: "Coletor de Essência"
@@ -9953,11 +9953,153 @@ resource:
       text: "Chaves Misteriosas?!"
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# State Base
+# Loading Messages
+# rtr.states.StateBase.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+     
+stateBase:
+  comment: "Loading Messages"
+  javaClass: "rtr.states.StateBase.java"
+  
+  loadingMessage:
+    0:
+      text: "Precisa de recursos refinados mais rapidamente? Construa outro edifício extra."
+    1:
+      text: "Nômades em apuros? Resgate-os!"
+    2:
+      text: "Se você tem um vilarejo em bom funcionamento, com bastante moradia, comida e empregos, você pode atrair alguns nômades para se juntar à sua aldeia.!"
+    3:
+      text: "Você pode comprar e vender recursos no mercado. Construa um!"
+    4:
+      text: "Aumentar sua população também aumentará sua barra de influência."
+    5:
+      text: "Elementais de fogo não sabem nadar."
+    6:
+      text: "Cuide bem de seus doggos."
+    7:
+      text: "O posto avançado e o quartel ganham uma pequena torre quando forem atualizado para o máximo."
+    8:
+      text: "Bons Doggos podem ajudar a aldeia às vezes."
+    9:
+      text: "Espectros podem andar por quase tudo e são altamente resistentes a danos físicos."
+    10:
+      text: "A corrupção se espalha lentamente pelo mapa, quanto mais corrupção e edifícios corrompidos no mapa, mais monstros vão aparecer à noite."
+    11:
+      text: "Os aldeões podem morrer de velhice! Mas eles podem viver um pouco mais se você cuidar deles."
+    12:
+      text: "Não se esqueça de construir fontes de água para os moradores."
+    13:
+      text: "Pressione Shift + F2 para fazer uma captura de tela de todo o mapa, e será armazenado na pasta screenShots no diretório de instalação do Rise to Ruins."
+    14:
+      text: "Você pode segurar o Shift da esquerda enquanto usa ferramentas, como o pincel, o posicionamento da estrada, a estrada, o prédio e muitos outros para bloquear o eixo do mouse e desenhar linhas retas."
+    15:
+      text: "Às vezes, os nômades visitam sua região e tentam se tornar cidadãos de sua aldeia. Você pode aumentar a chance de eles aparecerem construindo uma grande vila com bastante moradia e defesas.."
+    16:
+      text: "A essência pode ser sugada pela sua mão, aumentando sua barra de influência."
+    17:
+      text: "Você pode ajustar a quantidade de trabalhadores desejados para um trabalho usando a guia da força de trabalho no lado esquerdo da GUI e pressionando os botões de mais e menos para esse trabalho.."
+    18:
+      text: "Aldeões precisam de comida! Não esqueça de construir algumas fazendas."
+    19:
+      text: "Não consegue entender como se joga? Leia as dicas do jogo!"
+    20:
+      text: "Esqueletos não pegam fogo."
+    21:
+      text: "Slimes gostam de dividir em mais slimes, eles podem se tornar um incomodo real e rápido!"
+    22:
+      text: "Tendo problemas para sobreviver no dia 3 ou 4? Construa algumas torres de arco."
+    23:
+      text: "Problemas para se reproduzir? Dê aos seus aldeãos algum tempo livre e bastante alojamentos."
+    24:
+      text: "Você pode pausar o jogo clicando no relógio ou pressionando a tecla de atalho de pausa (Padrão: barra de espaço)"
+    25:
+      text: "Tente criar pontos de estreitamento em seus projetos de aldeia, os monstros irão ter problemas para entrar."
+    26:
+      text: "Não se mure completamente! Você irá se arrepender."
+    27:
+      text: "Há sempre fogo amigável, tente não machucar ninguém acidentalmente."
+    28:
+      text: "Torres mágicas precisam de essência, construa coletores de essência!"
+    29:
+      text: "É necessário uma serraria para refinar os troncos em pranchas, é utilizado em muitos edifícios avançados."
+    30:
+      text: "A lapidação de pedra é necessária para refinar pedras em pedras refinadas, é utilizado em muitos edifícios avançados."
+    31:
+      text: "Um Cristilador é necessária para refinar cristais em crilítio, uma fonte de combustível muito importante."
+    32:
+      text: "Você pode desativar as dicas do jogo no menu de configurações."
+    33:
+      text: "Você pode alterar as teclas de atalho e várias outras configurações no menu de configurações."
+    34:
+      text: "Você pode tirar uma screenshot pressionando F2, ela será salva na pasta screenshots."
+    35:
+      text: "Você pode ocultar a GUI pressionando F4."
+    36:
+      text: "O jogo Crashou? Há logs de falhas na pasta de logs. Envie para o desenvolvedor!"
+    37:
+      text: "Muitos edifícios exigem materiais refinados, verifique os requisitos de um edifício antes de construir!"
+    38:
+      text: "As dicas do jogo são uteis, leia-as!"
+    39:
+      text: "Aldeões sendo cercados por monstros? Use a magia Retorno ou Banir!"
+    40:
+      text: "Os construtores só coletarão materiais se precisarem construir algo. Se você quiser criar um estoque, construa um almoxarifado!"
+    41:
+      text: "Os agricultores só precisam saber quais recursos silvestres coletar, uma vez que eles tenham uma fazenda funcionando, eles cuidarão disso por conta própria."
+    42:
+      text: "42"
+    43:
+      text: "Os aldeões podem pegar fogo aleatoriamente no verão se ficarem muito quentes por muito tempo."
+    44:
+      text: "Os aldeões às vezes congelam rochas sólidas se estiverem extremamente frias por um longo período de tempo."
+    45:
+      text: "Certifique-se de armazenar alimentos para o inverno!"
+    46:
+      text: "A magia Motivar terreno é muito menos eficaz em climas mais frios."
+    47:
+      text: "Aldeões infelizes? Não sobrecarregue-os demais!"
+    48:
+      text: "A melhor época para usar a magia Motivar Terreno é quando o tempo está quente e está chovendo."
+    49:
+      text: "A maioria das torres pode atirar na maioria das paredes. Use isso para sua vantagem!"
+    50:
+      text: "Ficao sem comida no inverno? Estoque! Em uma emergência, você pode usar o feitiço para pegar comida não colhida fora da sua aldeia."
+    51:
+      text: "Você sabia que o feitiço apanhar pode pegar materiais não colhidos no mapa? Útil quando você precisa de uma pitada derecursos."
+    52:
+      text: "Os aldeões precisam de casas para se refrescar no verão e se aquecer no inverno."
+    53:
+      text: "Morrendo de fome no inverno? Use o feitiço apanhar para pegar comida que está inacessível."
+    54:
+      text: "Golems trabalhadores são realmente úteis no início do jogo para transportar alguns recursos extras."
+    55:
+      text: "A primavera é geralmente a melhor época para cultivar alimentos."
+    56:
+      text: "A comida e árvores não são as únicas coisas que param de crescer no extremo quente ou frio, os cristais também param!"
+    57:
+      text: "A maioria das torres pode disparar contra muros baixos, tente construir um labirinto enorme!"
+    58:
+      text: "Os aldeões se aquecem quando trabalham, isso é ótimo no inverno, mas terrível no verão."
+    59:
+      text: "Quer se mover mais rápido? Construa uma cabana de estradista e construa algumas estradas!"
+    60:
+      text: "Com o tempo, caminhos naturais aparecerão em áreas em que seus moradores andam."
+    61:
+      text: "As estradas decaem lentamente ao longo do tempo, certifique-se de ter alguns fabricantes de estrada ao redor para repará-los!"
+    62:
+      text: "As estradas decaem mais rápido com a chuva."
+    63:
+      text: "Caminhos básicos não duram muito tempo, considere colocar um sistema de estradas adequado!"
+    64:
+      text: "Ficando sem espaços de construção? Atualize seu acampamento ou construa alguns edifícios auxiliares com mais antecedência."
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Game Mode
 # Names
 # rtr.system.gamemodetemplates.*
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-     
+
 gameMode:
   nightmare:
     text: "Pesadelo"
