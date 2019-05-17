@@ -8036,6 +8036,14 @@ mobJob:
     description:
       text: "Transforma pedra em pedra polida para estruturas avançadas."
 
+  trasher:
+    single:
+      text: "Catador"
+    plural:
+      text: "Catadores"
+    description:
+      text: "Limpa o lixo dentro e ao redor da aldeia e entrega-o em aterros, queimadores ou processa-o nos processadores."
+      
   tumbler:
     single:
       text: "Canteiro"
@@ -8512,6 +8520,23 @@ object:
         description:
           text: "Aumenta o bônus global de velocidade para manufatura de arcos e flechas, aumenta a capacidade de estoque e abre uma vaga adicional para flecheiros."
     
+    burner:
+      makeshift:
+        name:
+          text: Queimador Improvisado"
+        description:
+          text: "Fornece trabalhadores que podem limpar o lixo ao redor da aldeia e queima lentamente o lixo armazenado no queimador, liberando a essência uma vez que sua energia esteja cheia."
+      base:
+        name:
+          text: "Queimador"
+        description:
+          text: "Aumenta a taxa de queima do lixo do queimador e dá à vila um espaço de trabalho adicional."
+      established:
+        name:
+          text: "Queimador Estabelecido"
+        description:
+          text: "Aumenta a taxa ao máximo de queima do lixo do queimador e dá à vila um espaço de trabalho adicional."
+          
     bulletTower:
       makeshift:
         name:
@@ -8660,6 +8685,24 @@ object:
         description:
           text: "Dá um bônus de velocidade global à manufatura de crilítio, aumenta a capacidade de estoque e cria uma vaga para cristiladores."
     
+    cubeEGolemCombobulator:
+      makeshift:
+        name:
+          text: "Combobulator de Golem Cubo-E improvisado"
+        description:
+          text: "Um edifício de acolhimento que consome energia e lingotes de ferro nas proximidades, criando golens que podem fabricar cubos de lixo e construir estruturas baseadas em lixo. Requer um fluxo constante de energia, ou os golems morrerão."
+          revision: "2"
+      base:
+        name:
+          text: "Combobulator de Cube-E Golem"
+        description:
+          text: "Aumenta quantos golens de cubo-e o combobulador pode manter, assim como aumenta os níveis de golems recém-gerados, mas custa um pouco mais de energia para produzir um novo golem."
+      established:
+        name:
+          text: "Combobulador de Golem Cubo-E estabelecido"
+        description:
+          text: "Aumenta quantos golens de cubo-e o combobulador pode manter, assim como aumenta os níveis de golems recém-gerados, mas custa um pouco mais de energia para produzir um novo golem."
+      
     cullisGate:
       name:
         text: "Portal Cullis"
@@ -9088,6 +9131,23 @@ object:
         description:
           text: "Aumenta o bônus global à manufatura de marmitas, aumenta espaço de estoque e cria vagas para mais cozinheiros."
     
+    landfill:
+      makeshift:
+        name:
+          text: "Aterro Sanitário Improvisado"
+        description:
+          text: "Fornece trabalhadores de limpeza que podem limpar o lixo ao redor da aldeia e permite que a aldeia armazene grandes quantidades de lixo em um local centralizado."
+      base:
+        name:
+          text: "Aterro"
+        description:
+          text: "Aumenta a quantidade de lixo que o aterro pode armazenar e dá à vila um espaço de trabalho adicional."
+      established:
+        name:
+          text: "Aterro Estabelecido"
+        description:
+          text: "Aumenta a quantidade de lixo que o aterro pode armazenar no máximo e dá à vila um espaço de trabalho adicional."
+   
     lumberMill:
       makeshift:
         name:
@@ -9139,6 +9199,23 @@ object:
         description:
           text: "Cria ainda mais vagas para guardas e adiciona uma pequena torre de arco no topo da guarita."
     
+    processor:
+      makeshift:
+        name:
+          text: "Processador Improvisado"
+        description:
+          text: "Fornece trabalhadores de limpeza que podem limpar o lixo ao redor da aldeia e permite que eles processem o lixo e tentem obter recursos utilizáveis deles."
+      base:
+        name:
+          text: "Processador"
+        description:
+          text: "Concede um bônus de velocidade global à velocidade de processamento de lixo, aumenta o armazenamento máximo e dá à vila um espaço de trabalho adicional."
+      established:
+        name:
+          text: "Processador Estabelicido"
+        description:
+          text: "Aumenta o bônus de velocidade global para o processamento de lixo, aumenta o armazenamento máximo e dá à vila um espaço de trabalho adicional."
+   
     phantomDartTower:
       makeshift:
         name:
@@ -9534,6 +9611,29 @@ object:
         description:
           text: "Aumenta o bônus global à manufatura de ferramentas, aumenta capacidade de estoque e cria uma vaga adicional para ferreiros."
     
+    trashCan:
+      makeshift:
+        name:
+          text: "Lata de lixo improvisada"
+        description:
+          text: "Um lugar para colocar lixo dentro e ao redor da aldeia. Qualquer um pode usar isso, mas somente os usuários podem esvaziá-lo e levar o lixo para um queimador, processador ou aterro."
+      base:
+        name:
+          text: "Lixeira Simples"
+        description:
+          text: "Aumenta a quantidade de lixo que a lixeira pode armazenar."
+      established:
+        name:
+          text: "Lixeira Estabelecida"
+        description:
+          text: "Aumenta a quantidade de lixo que a lixeira pode armazenar no máximo."
+          
+    trashyCubePile:
+      name:
+        text: "Pilha de cubo de lixo"
+      description:
+        text: "Uma enorme estrutura permanente de cubos inúteis. Não funciona como um armazenamento. A única maneira de recuperar os cubos é destruir ou desmantelar a pilha de cubos. Só pode ser construído pelos golems Cube-E."
+          
     waterPurifier:
       makeshift:
         name:
@@ -9684,6 +9784,11 @@ object:
         text: "Cerca de Madeira"
       description:
         text: "Uma cerca básica, por cima da qual a maioria das torres consegue atirar. Monstros só a atacarão se não encontram um outro caminho para atacar a aldeia."
+    trashyCubeWall:
+      name:
+        text: "Parede de Cubos de Sucata"
+      description:
+        text: "Uma parede de sucata que só pode ser construída por golems Cube-E. Pode ser atingido pela maioria das torres e ataques à distância. Monstros só atacarão se não puderem encontrar outro caminho razoável para a aldeia."
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Resource Module
@@ -9707,8 +9812,10 @@ resourceCategory:
     text: "Ferramentas"
   towerAmmo:
     text: "Munição de Torres"
-  weaponsandAmmo:
-    text: "Armas e Munição"
+  weapons:
+    text: "Armas"
+  trash:
+    text: "Lixo"
   miscellaneous:
     text: "Outros"
        
@@ -9722,235 +9829,365 @@ resource:
   comment: "Resource Module - Names"
   javaClass: "rtr.resources.templates.*"
   
+  woodyTrash:
+    single:
+      text: "Entulho de Madeira"
+    plural:
+      text: "Entulho de Madeiras"
+    description:
+      text: "Uma pilha de lixo que pode ter alguma sobra de madeira útil. Use um processador para processá-lo ou simplesmente queime-o em um queimador para obter essência."
+  
   wood:
     single:
       text: "Madeira"
     plural:
       text: "Madeiras"
+    description:
+      text: "Recurso básico para construir toneladas de coisas, incluindo placas, ferramentas e a maioria das construções."
 
   board:
     single:
       text: "Madeira Refinada"
     plural:
       text: "Madeiras Refinadas"
+    description:
+      text: "Uma madeira mais plana. Principalmente usado para construções de edifícios mais avançados."
+      
+  rockyTrash:
+    single:
+      text: "Entulho de Pedra"
+    plural:
+      text: "Entulho de Pedras"
+    description:
+      text: "Uma pilha de lixo que pode ter alguma sobra de rocha útil. Use um processador para processá-lo ou simplesmente queime-o em um queimador para obter essência."
 
   rock:
     single:
       text: "Pedra"
     plural:
       text: "Pedras"
-
+    description:
+      text: "Recurso básico para construir toneladas de material, incluindo a pedra cortada e a maior parte da construção civil."
+      
   cutStone:
     single:
       text: "Pedra Polida"
     plural:
       text: "Pedras Polidas"
+    description:
+      text: "Uma pedra mais quadradas e polida. Principalmente usada para construção de edifícios mais avançados."
 
   ironOre:
     single:
       text: "Minério de Ferro"
     plural:
       text: "Minérios de Ferro"
+    description:
+      text: "Ferro cru que precisa ser fundido em lingotes antes que possam ser usados."
 
   ironIngot:
     single:
       text: "Barra de Ferro"
     plural:
       text: "Barras de Ferro"
+    description:
+      text: "Usado para fazer ferramentas, armas, armaduras e construções de vários edifícios."
 
   goldOre:
     single:
       text: "Minério de Ouro"
     plural:
       text: "Minérios de Ouro"
+    description:
+      text: "Ouro cru que precisa ser fundido em lingotes antes de poder ser usado."
 
   goldIngot:
     single:
       text: "Barra de Ouro"
     plural:
       text: "Barras de Ouro"
+    description:
+      text: "Usado apenas para fazer moedas de ouro."
 
   goldCoinSack:
     single:
       text: "Saco de Moedas"
     plural:
       text: "Sacos de Moedas"
+    description:
+      text: "Dinheiro! Use-o para comprar coisas no mercado."
+      
+  crystallyTrash:
+    single:
+      text: "Entulho de Cristal"
+    plural:
+      text: "Entulho de Cristais"
+    description:
+      text: "Uma pilha de lixo que pode ter algum resto de cristal útil. Use um processador para processá-lo ou simplesmente queime-o em um queimador para obter essência."
 
   crystal:
     single:
       text: "Cristal"
     plural:
       text: "Cristais"
+    description:
+      text: "Recurso básico para construir toneladas de material, usado principalmente na construção de construções mágicas."
 
   crylithium:
     single:
       text: "Crilítio"
     plural:
       text: "Crilítio"
+    description:
+      text: "Cristais purificados usados como fonte de energia em muitos edifícios mágicos, ou como combustível para coletores de essência."
+      
+  organicyTrash:
+    single:
+      text: "Lixo Orgânico"
+    plural:
+      text: "Lixos Orgânicos"
+    description:
+      text: "Uma pilha de lixo que pode ter restos reutilizáveis de lixo orgânico de sobra. Use um processador para processá-lo ou simplesmente queime-o em um queimador para obter essência."
 
   rawFood:
     single:
       text: "Comida Crua"
     plural:
       text: "Comida Crua"
+    description:
+      text: "Alimentos crus para comer!"
 
   ration:
     single:
       text: "Marmita"
     plural:
       text: "Marmitas"
+    description:
+      text: "Alimentos embalados eficientemente que duram mais!"
 
   ballistaeBolts:
     single:
-      text: "Flechas Balista"
+      text: "Flecha de Balista"
     plural:
-      text: "Flechas Balista"
+      text: "Flechas de Balista"
+    description:
+      text: "Pack de Flechas utilizado em várias torres, como a torre de arco e a balista."
 
   stoneBalls:
     single:
       text: "Bola de Pedra"
     plural:
       text: "Bolas de Pedra"
+    description:
+      text: "Pack de bolas de pedra utilizado em várias torres, como a torre de projétil, Estilingue e a torre Spray."
 
   ironSword:
     single:
       text: "Espada de Ferro"
     plural:
       text: "Espadas de Ferro"
+    description:
+      text: "Afiada arma de ferro, que aumenta o dano máximo. Útil para cortar inimigos."
 
   woodSword:
     single:
       text: "Espada de Madeira"
     plural:
       text: "Espadas de Madeira"
+    description:
+      text: "Arma de madeira meio afiada (mais para lascada?), Que aumenta o dano máximo. Útil para atordoar um inimigo."
 
   pickaxe:
     single:
       text: "Picareta"
     plural:
       text: "Picaretas"
+    description:
+      text: "Aumenta a velocidade de trabalho dos trabalhadores que podem usá-lo, como mineiros, ceifadores de cristal e cortadores de pedras."
 
   axe:
     single:
       text: "Machado"
     plural:
       text: "Machados"
+    description:
+      text: "Aumenta a velocidade de trabalho dos trabalhadores que podem usá-lo, como carpinteiros, fletchers e lenhadores."
 
   hoe:
     single:
       text: "Enxada"
     plural:
       text: "Enxadas"
+    description:
+      text: "Aumenta a velocidade de trabalho dos trabalhadores que podem usá-lo, como fazendeiros."
 
   hammer:
     single:
       text: "Martelo"
     plural:
       text: "Martelos"
+    description:
+      text: "Aumenta a velocidade de trabalho dos trabalhadores que podem usá-lo, como construtores, Crilítios e ferreiros."
 
   shovel:
     single:
       text: "Pá"
     plural:
       text: "Pás"
+    description:
+      text: "Aumenta a velocidade de trabalho dos trabalhadores que podem usá-lo, como operários, construtores, fazendeiros e mineiros."
 
   leatherHelmet:
     single:
       text: "Capacete de Couro"
     plural:
       text: "Capacetes de Couro"
+    description:
+      text: "Capacete frágil usado para reduzir danos recebidos."
 
   leatherChest:
     single:
       text: "Colete de Couro"
     plural:
       text: "Coletes de Couro"
+    description:
+      text: "Armadura frágil usado para reduzir danos recebidos."
 
   ironHelmet:
     single:
       text: "Capacete de Ferro"
     plural:
       text: "Capacetes de Ferro"
+    description:
+      text: "Capacete resistente utilizado para reduzir dano recebido."
 
   ironChestArmor:
     single:
       text: "Armadura de Ferro"
     plural:
       text: "Armaduras de Ferro"
+    description:
+      text: "Armadura resistente utilizada para reduzir dano recebido."
 
   woodShield:
     single:
       text: "Escudo de Madeira"
     plural:
       text: "Escudos de Madeira"
+    description:
+      text: "Escudo básico com uma pequena chance de esquivar um ataque recebido."
 
   ironShield:
     single:
       text: "Escudo de Ferro"
     plural:
       text: "Escudos de Ferro"
+    description:
+      text: "Escudo avançado com uma chance maior de esquivar um ataque."
 
   quiver:
     single:
       text: "Alijava"
     plural:
       text: "Alijavas"
+    description:
+      text: "Fornece munição para arcos de mão."
 
   bow:
     single:
       text: "Arco"
     plural:
       text: "Arcos"
+    description:
+      text: "Para atirar de longe de coisas que você não gosta."
 
   silk:
     single:
       text: "Seda"
     plural:
       text: "Seda"
+    description:
+      text: "Usado para fazer curativos."
 
   bandage:
     single:
       text: "Curativo"
     plural:
       text: "Curativos"
+    description:
+      text: "Curativos de emergência que podem ser carregados por qualquer pessoa, usados para curar, se forem significativamente feridos."
 
   medkit:
     single:
       text: "Medkit"
-      forceCount: "true"
     plural:
       text: "Medkits"
-      forceCount: "true"
+    description:
+      text: "Aumenta a velocidade de trabalho dos trabalhadores que podem usá-lo. Usado exclusivamente por médicos."
 
   healingPotion:
     single:
       text: "Poção de Cura"
     plural:
       text: "Poções de Cura"
+    description:
+      text: "Poção de cura que recupera rapidamente a vida."
 
   dirtyWaterBucket:
     single:
       text: "Balde de Água Suja"
     plural:
       text: "Baldes de Água Suja"
+    description:
+      text: "Água não potável que pode ser usada em uma fazenda ou purificada em um purificador de água."
 
   waterBucket:
     single:
       text: "Balde de Água"
     plural:
       text: "Baldes de Água"
+    description:
+      text: "Água potável que pode ser engarrafada ou despejada diretamente em uma casa ou fonte para ser bebida quando necessário."
 
   waterBottle:
     single:
       text: "Garrafa d'Água"
     plural:
       text: "Garrafas d'Água"
+    description: 
+      text: "Água potável engarrafada que pode ser facilmente transportada."
 
   suspiciousKey:
     single:
       text: "Chave Misteriosa?!"
     plural:
       text: "Chaves Misteriosas?!"
+    description:
+      text: "Que tipo de caixa isso poderia abrir?!"
+      
+  suspiciousyTrash:
+    single:
+      text: "Lixo Misterioso?!"
+    plural:
+      text: "Lixos Misteriosos?!"
+    description:
+      text: "Oque?"
+      
+  trashyTrash:
+    single:
+      text: "Lixo Inútil"
+    plural:
+      text: "Lixos Inúteis"
+    description:
+      text: "Completamente inútil, pode ser queimado em um queimador de essência livre, ou transformado em um cubo primeiro para queima-lo com mais eficiência."
+      
+  trashyCube:
+    single:
+      text: "Cubo de Lixo"
+    plural:
+      text: "Cubos de Lixo"
+    description:
+      text: "Lixo comprimido que pode fornecer mais essência quando queimado, ou usado para construir um grande cubo de lixo ou paredes de lixo em um click."
     
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # State Base
@@ -10101,6 +10338,9 @@ stateBase:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 gameMode:
+  comment: "Game Mode - Names"
+  javaClass: "rtr.system.gamemodetemplates.*"
+  
   nightmare:
     text: "Pesadelo"
   survival:
@@ -10113,10 +10353,10 @@ gameMode:
     text: "Customizado"
   sandbox:
     text: "Sandbox"
-    forceCount: "true"
   mainMenu:
     text: "Menu Principal"
   mapEditor:
     text: "Editor de Mapas"
   worldMap:
     text: "Mapa Mundial"
+    
