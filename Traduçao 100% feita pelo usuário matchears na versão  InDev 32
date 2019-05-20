@@ -6667,82 +6667,171 @@ tileSet:
   
   road:  
     path:
-      text: "Estrada de Chão"
+      name:
+        text: "Estrada de Chão"
+      description:
+        text: "Criado naturalmente pelas criaturas que andam sobre o mesmo espaço repetidamente. Aumenta consideravelmente a velocidade de movimento."
     logPathDebris:
-      text: "Estrada Improvisada (Restos)"
+      name:
+        text: "Estrada Improvisada (Restos)"
+      description:
+        text: "Estrada deteriorada, pode ser reparada por um fabricante ou Reparador. Se não for reparado, pode decair completamente com o tempo."
     logPath:
-      text: "Estrada Improvisada"
+      name:
+        text: "Estrada Improvisada"
+      description:
+        text: "Um caminho básico que aumentará a velocidade de movimento."
     cobbleAndLogPathDebris:
-      text: "Estrada (Restos)"
+      name:
+        text: "Estrada (Restos)"
+      description:
+        text: "Estrada deteriorada, pode ser reparada por um fabricante ou Reparador. Se não for reparado, pode decair completamente com o tempo."
     cobbleAndLogPath:
-      text: "Estrada"
+      name:
+        text: "Estrada"
+      description:
+        text: "Um caminho bem construído que irá impulsionar a velocidade de movimento."
     cobbleAndBoardRoadDebris:
-      text: "Estrada Estabelecida (Restos)"
+      name:
+        text: "Estrada Estabelecida (Restos)"
+      description:
+        text: "Estrada deteriorada, pode ser reparada por um fabricante ou Reparador. Se não for reparado, pode decair completamente com o tempo."
     cobbleAndBoardRoad:
-      text: "Estrada Estabelecida"
+      name:
+        text: "Estrada Estabelecida"
+      description:
+        text: "Uma estrada robusta e bem construída que aumenta significativamente a velocidade de movimento."
     cutStoneAndBoardRoadDebris:
-      text: "Estrada Reforçada (Restos)"
+      name:
+        text: "Estrada Reforçada (Restos)"
+      description:
+        text: "Estrada deteriorada, pode ser reparada por um fabricante ou Reparador. Se não for reparado, pode decair completamente com o tempo."
     cutStoneAndBoardRoad:
-      text: "Estrada Reforçada"
+      name:
+        text: "Estrada Reforçada"
+      description:
+        text: "Estrada avançada que aumenta significativamente a velocidade de movimento."
 
   terrain:
     treeStumps:
-      text: "Troncos"
+      name:
+        text: "Troncos"
+      description:
+        text: "Anteriormente cortadas, árvores que irão crescer novamente eventualmente."
     trees:
-      text: "Árvores"
+      name:
+        text: "Árvores"
+      description:
+        text: "Fornece madeira para a aldeia, que podem ser colhidas e estocada em uma cabana de lenhadores. Os construtores também podem coletá-los conforme o necessário para construções de estruturas."
     deadTrees:
-      text: "Árvores Mortas"
+      name:
+        text: "Árvores Mortas"
+      description:
+        text: "Fornece madeira para a aldeia, que podem ser colhidas e estocada em uma cabana de lenhadores. Os construtores também podem coletá-las conforme o necessário para construções de estruturas. Eventualmente voltará à vida se for deixado sozinho jogado."
     rock:
-      text: "Pedra"
+      name:
+        text: "Pedra"
+      description:
+        text: "Fornece pedra para a aldeia, para a mina e estoque construindo um centro de mineração. Os construtores também podem minerá-los conforme o necessário para construções de estruturas."
+    rockCollected:
+      name:
+        text: "Pedaços de Pedra"
+      description:
+        text: "Pedras mineradas que não tem mais valor."
     sandstone:
-      text: "Arenito"
-    redCrystals:
-      text: "Cristais Vermelhos"
-    greenCrystals:
-      text: "Cristais Verdes"
-    blueCrystals:
-      text: "Cristais Azuis"
-    purpleCrystals:
-      text: "Cristais Roxo"
+      name:
+        text: "Arenito"
+      description:
+        text: "Fornece pedra para a aldeia, para a mina e estoque construindo uma instalação de mineração. Os construtores também podem minerá-los conforme o necessário para construções de estruturas."
+    sandstoneCollected:
+      name:
+        text: "Pedaços de Arenito"
+      description:
+        text: "Arenito minado que não tem mais valor."
+    crystals:
+      name:
+        text: "cristais"
+      description:
+        text: "Fornece Cristais para a aldeia, para a mina e estoque construindo um coletor de cristais. Os construtores também podem minerá-los conforme o necessário para construções de estruturas."
+    crystalsCollected:
+      name:
+        text: "Pedaços de Cristais"
+      description:
+        text: "Cristais colhidos, eventualmente crescerão e poderão ser colhidos."
     potatoes:
-      text: "Batatas"
+      name:
+        text: "Batatas"
+      description:
+        text: "Fornece comida para a aldeia, os agricultores podem colhê-los para criar um estoque ou plantar em uma fazenda para iniciar ou aumentar a produção de alimentos na vila."
     turnips:
-      text: "Rabanetes"
+      name:
+        text: "Rabanetes"
+      description:
+        text: "Fornece comida para a aldeia, os agricultores podem colhê-los para criar um estoque ou plantar em uma fazenda para iniciar ou aumentar a produção de alimentos na vila."
     cactus:
-      text: "Cactos"
+      name:
+        text: "Cactos"
+      description:
+        text: "Fornece comida para a aldeia, os agricultores podem colhê-los para criar um estoque ou plantar em uma fazenda para iniciar ou aumentar a produção de alimentos na vila."
     carrots:
-      text: "Cenouras"
+      name:
+        text: "Cenouras"
+      description:
+        text: "Fornece comida para a aldeia, os agricultores podem colhê-los para criar um estoque ou plantar em uma fazenda para iniciar ou aumentar a produção de alimentos na vila."
     melons:
-      text: "Melões"
+      name:
+        text: "Melões"
+      description:
+        text: "Fornece comida para a aldeia, os agricultores podem colhê-los para criar um estoque ou plantar em uma fazenda para iniciar ou aumentar a produção de alimentos na vila."
     bricks:
-      text: "Tijolos"
+      name:
+        text: "Tijolos"
     dirt:
-      text: "Terra"
+      name:
+        text: "Terra"
     flowers:
-      text: "Flores"
+      name:
+        text: "Flores"
     grass:
-      text: "Grama"
+      name:
+        text: "Grama"
     gravel:
-      text: "Cascalho"
+      name:
+        text: "Cascalho"
     lava:
-      text: "Lava"
+      name:
+        text: "Lava"
       forceCount: "true"
     sand:
-      text: "Areia"
+      name:
+        text: "Areia"
     tar:
-      text: "Piche"
+      name:
+        text: "Piche"
+      description:
+        text: "Não pode ser removido e diminui muito a velocidade de movimento."
     tiles:
-      text: "Ladrilhos"
+      name:
+        text: "Ladrilhos"
     water:
-      text: "Água"
+      name:
+        text: "Água"
+      description:
+        text: "Fornece água suja (não potável) para a aldeia, os agricultores podem recolher água para regar os ortas, e os donos das águas podem entregar a água aos purificadores para torna-la potável."
     mud:
-      text: "Lama"
+      name:
+        text: "Lama"
     ice:
+      name:
       text: "Gelo"
     frozenMud:
-      text: "Lama Congelada"
+      name:
+        text: "Lama Congelada"
     corruption:
-      text: "Corrupção"
+      name:
+        text: "Corrupção"
+      description:
+        text: "Coisas ruins, fique longe!"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Missile Module
@@ -6935,6 +7024,16 @@ mobName:
       text: "Gosma"
     plural:
       text: "Gosmas"
+  smallTrashySlime:
+    single:
+      text: "Gosma Pequena de Lixo"
+    plural:
+      text: "Gosmas Pequenas de Lixo"
+  trashySlime:
+    single:
+      text: "Gosma de Lixo"
+    plural:
+      text: "Gosmas de Lixo"
   smallBloodSlime:
     single:
       text: "Gosma Sangrenta Pequena"
@@ -7157,6 +7256,11 @@ mobName:
       text: "Golem Trabalhador"
     plural:
       text: "Golens Trabalhadores"
+  cubeEGolem:
+    single:
+      text: "Golem Cube-E"
+    plural:
+      text: "Golens Cube-E"
   poisonWoodGolem:
     single:
       text: "Golem de Madeira Envenenada"
@@ -7688,6 +7792,14 @@ aiTask:
     sellLabor:
       text: "Procurando emprego no $YEL1{buildingName}"
       
+  makeTrashyCube:
+    pathfindToTrashOnGround:
+      text: "Caminhando ate ao {resourceName} pelo chão"
+    pathfindToBuilding:
+      text: "Caminhando ate ao {resourceName} proximo ao {buildingName}"
+    processTrash:
+      text: "Processando {resourceName} em um cubo"
+      
   mateCoitus:
     awaitCoitusWaiting:
       text: "Esperando {mobName} chegar para se divertirem"
@@ -7757,6 +7869,12 @@ aiTask:
       text: "Plantando recurso em uma fazenda"
     pathfindToExtraResource:
       text: "Pegando recursos adicionais para plantar"
+      
+  processTrash:
+    pathfindToWork:
+      text: "Processando lixo em {buildingName}"
+    processTrash:
+      text: "Processando Lixo"
       
   provisionerLeave:
     pathfindToLeaveCoordinates:
@@ -7850,11 +7968,21 @@ aiTask:
     pathfindToResource:
       text: "Indo pegar recurso no chão para estocar em uma estrutura"
       
+  storeTrashInTrashCan:
+    pathfindToTrash:
+      text: "Pegando lixo do chão para armazenar em uma estrutura"
+      
   storeResourceInHand:
     pathfindToBuilding:
       text: "Indo estocar recurso no/a {buildingName}"
     pathfindToExtraResource:
       text: "Pegando recursos adicionais para {buildingName}"
+      
+  storeTrashInTrashCanInHand:
+    pathfindToBuilding:
+      text: "Indo armazenar lixo no/a {buildingName}"
+    pathfindToExtraTrash:
+      text: "Pegando lixo adicional para {buildingName}"
       
   stuck:
     pathfindOffBlockedTerrain:
