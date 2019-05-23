@@ -6801,7 +6801,6 @@ tileSet:
     lava:
       name:
         text: "Lava"
-      forceCount: "true"
     sand:
       name:
         text: "Areia"
@@ -6823,7 +6822,7 @@ tileSet:
         text: "Lama"
     ice:
       name:
-      text: "Gelo"
+        text: "Gelo"
     frozenMud:
       name:
         text: "Lama Congelada"
