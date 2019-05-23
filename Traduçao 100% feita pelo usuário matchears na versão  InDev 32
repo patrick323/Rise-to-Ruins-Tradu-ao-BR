@@ -136,6 +136,8 @@ godXP:
     text: "Redistribuiu Recursos"
   refiningResources:
     text: "Refinou Recursos"
+  processingResources:
+    text: "Processou Rercursos"
   sellingResources:
     text: "Vendeu Recursos"
   storingResources:
@@ -479,750 +481,1123 @@ perk:
   
   farellesConstitution:
     text: "Constituição de Farelle"
+    optional: "true"
   kevorkianBloom:
     text: "Florescimento Kevorkiano"
+    optional: "true"
   stensForm:
     text: "Forma de Sten"
+    optional: "true"
   hardinessofMergen:
     text: "Dureza de Mergen"
+    optional: "true"
   vitalityofFecht:
     text: "Vitalidade de Fetch"
+    optional: "true"
   shohunsRecovery:
     text: "Regeneração de Shohun"
+    optional: "true"
   kanesathsResumption:
     text: "Recomeço de Kanesaths"
+    optional: "true"
   sulansRehabilitation:
     text: "Reabilitação de Sulan"
+    optional: "true"
   lunnithunsReformation:
     text: "Reformação de Lunnithun"
+    optional: "true"
   sythumsRestoration:
     text: "Restauração de Sythum"
+    optional: "true"
   cravingsofJokur:
     text: "Desejos de Jokur"
+    optional: "true"
   karachosLonging:
     text: "Saudades de Karacho"
+    optional: "true"
   namsansGluttony:
     text: "Gula de Namsan"
+    optional: "true"
   dixonpuffsCraving:
     text: "Desejo de Dixonpuff"
+    optional: "true"
   riyasAppetite:
     text: "Apetite de Riya"
+    optional: "true"
   sagewingsGill:
     text: "Brânquias de Sagewing"
+    optional: "true"
   stonestandsGlut:
     text: "Excesso de Stonestands"
+    optional: "true"
   brisksongsWholeness:
     text: "Completude de Brisksong"
+    optional: "true"
   ositansPlenty:
     text: "Fartura de Ositan"
+    optional: "true"
   mullarmsAmpleness:
     text: "Amplitude de Mullarm"
+    optional: "true"
   alamarsThirst:
     text: "Sede de Alamar"
+    optional: "true"
   tearsofRaevyr:
     text: "Lágrimas de Raevyr"
+    optional: "true"
   jaycesonsSucculences:
     text: "Suculências de Jaycesons"
+    optional: "true"
   napthasSplashing:
     text: "Ondas de Napthas"
+    optional: "true"
   dobmmonsWetness:
     text: "Umidade de Dobmmons"
+    optional: "true"
   gavtarlsSurplus:
     text: "Excedente de Gavtarl"
+    optional: "true"
   thranuraksSaliva:
     text: "Baba de Thranurak"
+    optional: "true"
   gerardsLibation:
     text: "Oferenda de Gerard"
+    optional: "true"
   beasantsPreservative:
     text: "Preservativo de Beasant"
+    optional: "true"
   burtonsBroth:
     text: "Caldo de Burton"
+    optional: "true"
   enduranceofXandal:
     text: "Fôlego de Xandal"
+    optional: "true"
   ilirithsActivity:
     text: "Atividade de Iliriths"
+    optional: "true"
   shiraRestlessness:
     text: "Inquietude de Shira"
+    optional: "true"
   dashofFabian:
     text: "Corrida de Fabian"
+    optional: "true"
   namerusExertion:
     text: "Esforço de Nameru"
+    optional: "true"
   dittmarsLiveliness:
     text: "Vitalidade de Dittmar"
+    optional: "true"
   ridleysEnterprise:
     text: "Iniciativa de Ridley"
+    optional: "true"
   anselsEnergy:
     text: "Energia de Ansel"
+    optional: "true"
   appletonsFlurry:
     text: "Agitação de Appleton"
+    optional: "true"
   andreasAlertness:
     text: "Alerta de Andrea"
+    optional: "true"
   sinestrasIntellect:
     text: "Intelecto de Sinestra"
+    optional: "true"
   cordialofHansard:
     text: "Licor de Hansard"
+    optional: "true"
   narsFriendliness:
     text: "Amabilidade de Nars"
+    optional: "true"
   morladsSociablility:
     text: "Sociabilidade de Morlard"
+    optional: "true"
   tiberiumkylesWisdom:
     text: "Sabedoria de Tiberiumkyle"
+    optional: "true"
   musisLilly:
     text: "Lírios de Musi"
+    optional: "true"
   hachimasLifeblood:
     text: "Sangue de Hachimas"
+    optional: "true"
   dundarsDetermination:
     text: "Determinação de Dundar"
+    optional: "true"
   soteriasGift:
     text: "Presente de Soteria"
+    optional: "true"
   dudasMortality:
     text: "Mortalidade de Duda"
+    optional: "true"
   speedofTheOterions:
     text: "Velocidade dos Oterions"
+    optional: "true"
   hasteofGriseus:
     text: "Pressa de Girseus"
+    optional: "true"
   nonimadsVelocity:
     text: "Velocidade de Nonimad"
+    optional: "true"
   enicarsAgility:
     text: "Agilidade de Enicar"
+    optional: "true"
   owensPace:
     text: "Ritmo de Owen"
+    optional: "true"
   lillysProtection:
     text: "Proteção de Lilly"
+    optional: "true"
   giosToughness:
     text: "Dureza de Gio"
+    optional: "true"
   skinofPriamus:
     text: "Pele de Priamus"
+    optional: "true"
   rivaresWard:
     text: "Proteção de Rivare"
+    optional: "true"
   mushusBarrier:
     text: "Barreira de Mushu"
+    optional: "true"
   bargsSkirmish:
     text: "Luta de Barg"
+    optional: "true"
   filiconsStrike:
     text: "Golpe de Filicon"
+    optional: "true"
   samansAggression:
     text: "Agressão de Saman"
+    optional: "true"
   shansealaRage:
     text: "Ira de Shanseala"
+    optional: "true"
   magmelsFall:
     text: "Queda de Magmel"
+    optional: "true"
   darlonsDispatch:
     text: "Mensagem de Darlon"
+    optional: "true"
   exonsStrike:
     text: "Golpe de Exon"
+    optional: "true"
   skalvernsCharge:
     text: "Arrancada de Skalvern"
+    optional: "true"
   norominsWrath:
     text: "Fúria de Noromin"
+    optional: "true"
   flamesofBivattus:
     text: "Chamas de Bivattus"
+    optional: "true"
   daggarothsLift:
     text: "Carona de Daggaroth"
+    optional: "true"
   ginjasArms:
     text: "Armas de Ginja"
+    optional: "true"
   zerosGravitas:
     text: "Solenidade de Zeros"
+    optional: "true"
   bibikisStamina:
     text: "Vigor de Bibiki"
+    optional: "true"
   clerothsLustiness:
     text: "Luxúria de Cleroth"
+    optional: "true"
   embraceofSpritus:
     text: "Abraço de Spritus"
+    optional: "true"
   snobosSatisfaction:
     text: "Satisfação de Snobos"
+    optional: "true"
   rainsFlower:
     text: "Flor de Rains"
+    optional: "true"
   eldsResourcefulness:
     text: "Esperteza de Eld"
+    optional: "true"
   ciphersCataloguing:
     text: "Catálogo de Cipher"
+    optional: "true"
   svarogsArrangement:
     text: "Arranjo de Svarog"
+    optional: "true"
   voxsStacking:
     text: "Empilhamento de Vox"
+    optional: "true"
   serakersArranging:
     text: "Combinações de Seraker"
+    optional: "true"
   vargsHabitation:
     text: "Habitação de Varg"
+    optional: "true"
   shelterofCingularis:
     text: "Abrigo de Cingularis"
+    optional: "true"
   koshkasQuarterage:
     text: "Asilo de Koshka"
+    optional: "true"
   xentiransHospitality:
     text: "Hospitalidade de Xentiran"
+    optional: "true"
   alendrusAccomodations:
     text: "Acomodações de Alendrus"
+    optional: "true"
   fusrohsIntensity:
     text: "Intensidade de Fusroh"
+    optional: "true"
   powerofCeris:
     text: "Poder de Ceris"
+    optional: "true"
   handinessofZacharias:
     text: "Praticalidade de Zacharias"
+    optional: "true"
   aarkisEfficaciousness:
     text: "Eficiência de Aarkis"
+    optional: "true"
   torlightUsefulness:
     text: "Utilidade de Torlight"
+    optional: "true"
   leonhardsProliferation:
     text: "Proliferação de Leonhard"
+    optional: "true"
   brutaniansSprouting:
     text: "Brotos de Brutânia"
+    optional: "true"
   growthoftheEverbloom:
     text: "Crescimento do Sempre-Verde"
+    optional: "true"
   lorrainesGrace:
     text: "Graça de Lorraine"
+    optional: "true"
   tranyasProduce:
     text: "Lote de Tranya"
+    optional: "true"
   eulersAlacrity:
     text: "Disposição de Alacrity"
+    optional: "true"
   bormacsHeadway:
     text: "Liderança de Bormac"
+    optional: "true"
   wrismokesHustle:
     text: "Trabalho de Wrismoke"
+    optional: "true"
   raphimasBreeze:
     text: "Brisa de Raphima"
+    optional: "true"
   shrogersBriskness:
     text: "Rapidez de Shroger"
+    optional: "true"
   rivarynsZeal:
     text: "Zelo de Rivaryn"
+    optional: "true"
   borasRush:
     text: "Carga de Bora"
+    optional: "true"
   returnofSilentis:
     text: "Retorno de Silentis"
+    optional: "true"
   ellongsYield:
     text: "Produção de Ellong"
+    optional: "true"
   reyekorasReaping:
     text: "Ceifa de Reyekora"
+    optional: "true"
   shogunsPassion:
     text: "Paixão de Shogun"
+    optional: "true"
   blacksIntensity:
     text: "Intensidade de Black"
+    optional: "true"
   solairesForging:
     text: "Forja de Solaire"
+    optional: "true"
   raindonsMolding:
     text: "Molde de Raidon"
+    optional: "true"
   webbshinesTooling:
     text: "Ajustes de Webbshine"
+    optional: "true"
   ariannasEagerness:
     text: "Vontade de Arianna"
+    optional: "true"
   wuggysErection:
     text: "Ereção de Wuggy"
+    optional: "true"
   xaerysArchitecture:
     text: "Arquitetura de Xaerys"
+    optional: "true"
   visersterSkill:
     text: "Habilidade de Viserster"
+    optional: "true"
   stewarbowCraftsmanship:
     text: "Artesanato de Stewarbow"
+    optional: "true"
   lascerandisFabrication:
     text: "Fabricação de Lascerandi"
+    optional: "true"
   shapingofSayres:
     text: "Escultura de Sayres"
+    optional: "true"
   thollsJoining:
     text: "Junções de Tholl"
+    optional: "true"
   lollikersEngineering:
     text: "Engenharia de Lolliker"
+    optional: "true"
   caclopsApex:
     text: "Pico de Caclops"
+    optional: "true"
   lyteniansDismembering:
     text: "Desmembramento de Lytenian"
+    optional: "true"
   araxielsWrack:
     text: "Naufrágio de Araxiel"
+    optional: "true"
   dobgibsonsRuin:
     text: "Ruína de Dobgibson"
+    optional: "true"
   hawksSwiftness:
     text: "Rapidez da Águia"
+    optional: "true"
   jamellsMania:
     text: "Mania de Jamell"
+    optional: "true"
   amaraesUrgency:
     text: "Urgência de Amarae"
+    optional: "true"
   anonlolisExpanse:
     text: "Vastidão de Anonloli"
+    optional: "true"
   levelingofDracoreyes:
     text: "Padronização de Dracoreyes"
+    optional: "true"
   glittersmisHeadroom:
     text: "Espaço de Glittersmi"
+    optional: "true"
   tuxiaClearcutting:
     text: "Desmatamento de Tuxia"
+    optional: "true"
   aeonsPatching:
     text: "Remendos de Aeon"
+    optional: "true"
   andreisReconstruction:
     text: "Reconstrução de Andrei"
+    optional: "true"
   jimelightsReformation:
     text: "Reformação de Jimelight"
+    optional: "true"
   wookorasMending:
     text: "Costura de Wookora"
+    optional: "true"
   silvergarsOverhaul:
     text: "Vistoria de Silvergar"
+    optional: "true"
   fuguesRectification:
     text: "Retificação de Fugues"
+    optional: "true"
   anastrianasGrind:
     text: "Esforço de Anastriana"
+    optional: "true"
   droghoffmansService:
     text: "Serviço de Droghoffman"
+    optional: "true"
   spiritofValiya:
     text: "Espírito de Valiya"
+    optional: "true"
   thollsReform:
     text: "Reforma de Tholl"
+    optional: "true"
   kiplingsHoeing:
     text: "Enxada de Kipling"
+    optional: "true"
   alvinsAgriculture:
     text: "Agricultura de Alvin"
+    optional: "true"
   woogsCultivation:
     text: "Cultivação de Woogs"
+    optional: "true"
   tranyasAgronomy:
     text: "Agronomia de Tranya"
+    optional: "true"
   rhaelmartinsSeeding:
     text: "Plantio de Rhaelmart"
+    optional: "true"
   leviathansCuring:
     text: "Cura de Leviathan"
+    optional: "true"
   alathasInvigoration:
     text: "Vigor de Alatha"
+    optional: "true"
   cralightsPlacebo:
     text: "Placebo de Cralight"
+    optional: "true"
   bakerolasRecovery:
     text: "Recuperação de Bakerola"
+    optional: "true"
   millsellsReparation:
     text: "Reparação de Millsell"
+    optional: "true"
   sagarsBottle:
     text: "Garrafa de Sagar"
+    optional: "true"
   destonsCanteen:
     text: "Cantina de Deston"
+    optional: "true"
   ronjasCapsule:
     text: "Cápsula de Ronja"
+    optional: "true"
   venettasTank:
     text: "Tanque de Venetta"
+    optional: "true"
   damiasTub:
     text: "Banheira de Damias"
+    optional: "true"
   oliviasDevelopment:
     text: "Desenvolvimento de Olivia"
+    optional: "true"
   rivasEscalation:
     text: "Ignição de Riva"
+    optional: "true"
   alyshasUpgrade:
     text: "Melhoria de Alysha"
+    optional: "true"
   yseultsInflation:
     text: "Inflação de Yseult"
+    optional: "true"
   tyndallsExaggeration:
     text: "Exagero de Tyndall"
+    optional: "true"
   tiffaniesSpread:
     text: "Disseminação de Tiffanie"
+    optional: "true"
   shelleysUpsurge:
     text: "Erupção de Shelley"
+    optional: "true"
   lickashsOptimization:
     text: "Otimização de Lickash"
+    optional: "true"
   krunluksFlow:
     text: "Fluxo de Krunluk"
+    optional: "true"
   glithasStimulation:
     text: "Estímulo de Glithas"
+    optional: "true"
   bellowflowsInvigoration:
     text: "Vigor de Bellowflow"
+    optional: "true"
   finespansBoost:
     text: "Ajuda de Finespan"
+    optional: "true"
   wigglespellsAccrual:
     text: "Acúmulo de Wigglespell"
+    optional: "true"
   bunameenksWaxing:
     text: "Míngua de Bunameenk"
+    optional: "true"
   ublathozzsBuild-up:
     text: "Preparação de Ublathozz"
+    optional: "true"
   thylinklazsAddition:
     text: "Adição de Thylinklaz"
+    optional: "true"
   klerosNumbers:
     text: "Números de Kleros"
+    optional: "true"
   noldicksAmassing:
     text: "Acúmulo de Noldick"
+    optional: "true"
   fabiansInfusion:
     text: "Infusão de Fabian"
+    optional: "true"
   bemarinsBuild:
     text: "Construção de Bemarin"
+    optional: "true"
   inemeonsEnergizing:
     text: "Energia de Inemeon"
+    optional: "true"
   jovimaviasAccumulation:
     text: "Acúmulo de Jovimaia"
+    optional: "true"
   zanliasGain:
     text: "Ganho de Zanlia"
+    optional: "true"
   hodisAugmentation:
     text: "Melhorias de Hodi"
+    optional: "true"
   balthisEnlargement:
     text: "Crescimento de Balthis"
+    optional: "true"
   jeremiahsEnflanginator:
     text: "Inflaginador de Jeremiah"
+    optional: "true"
   drengundsExtension:
     text: "Extensão de Dredung"
+    optional: "true"
   bhuldemsSupplements:
     text: "Suplementos de Bhuldems"
+    optional: "true"
   egusSurge:
     text: "Onda de Egus"
+    optional: "true"
   uglasCharge:
     text: "Carga de Uglas"
+    optional: "true"
   omarsExciter:
     text: "Excitador de Omar"
+    optional: "true"
   rowansVitalization:
     text: "Vitalização de Rowan"
+    optional: "true"
   ramseysAccumulation:
     text: "Acúmulo de Ramsey"
+    optional: "true"
   patstricksAllurement:
     text: "Atração de Patstrick"
+    optional: "true"
   divinationofAidos:
     text: "Divinação de Aidos"
+    optional: "true"
   aronsAscension:
     text: "Ascensão de Aron"
+    optional: "true"
   hughsGambit:
     text: "Aposta de Hugh"
+    optional: "true"
   vigorofAngerris:
     text: "Vigor de Angerris"
+    optional: "true"
   braktarsRighteousness:
     text: "Autoridade de Braktar"
+    optional: "true"
   glendaysInflation:
     text: "Inflação de Glenday"
+    optional: "true"
   serarosAccession:
     text: "Nomeação de Seraro"
+    optional: "true"
   additionsofAngerris:
     text: "Adições de Angerris"
+    optional: "true"
   agerrasBuildup:
     text: "Acúmulo de Agerras"
+    optional: "true"
   pixrtonsGains:
     text: "Ganhos de Pixrton"
+    optional: "true"
   bloomsGlorification:
     text: "Glorificação de Bloom"
+    optional: "true"
   acurasAccumulation:
     text: "Acúmulo de Acuras"
+    optional: "true"
   galmisExpansion:
     text: "Expansão de Galmis"
+    optional: "true"
   lolliwoodsSurge:
     text: "Onda de Lolliwood"
+    optional: "true"
   drogverasUpgrade:
     text: "Melhoria de Drogvera"
+    optional: "true"
   solairesAugmentation:
     text: "Melhoria de Solaires"
+    optional: "true"
   wendusContinuance:
     text: "Continuação de Wendus"
+    optional: "true"
   raindonsPerpetuation:
     text: "Perpetuação de Raindon"
+    optional: "true"
   gibsonshinesStretch:
     text: "Alongamento de Gibsonshine"
+    optional: "true"
   redsPerpetuation:
     text: "Perpetuamento de Red"
+    optional: "true"
   belindasRadius:
     text: "Área de Belinda"
+    optional: "true"
   jaedensBringing:
     text: "Oferenda de Jaeden"
+    optional: "true"
   redfieldsDraw:
     text: "Saque de Redfield"
+    optional: "true"
   jeremiasReload:
     text: "Recarga de Jeremia"
+    optional: "true"
   reubensAcceleration:
     text: "Aceleração de Reuben"
+    optional: "true"
   clarksMomentum:
     text: "Momentuum de Clark"
+    optional: "true"
   cristobalsRenewal:
     text: "Renovação de Cristobal"
+    optional: "true"
   goransPace:
     text: "Ritmo de Goran"
+    optional: "true"
   marcosRubio:
     text: "Rubio de Marocs"
+    optional: "true"
   godfreysExpenditure:
     text: "Despesas de Godfrey"
+    optional: "true"
   rutlandsConsumption:
     text: "Consumo de Rutland"
+    optional: "true"
   edgesAssimilation:
     text: "Assimilação de Edge"
+    optional: "true"
   fleurettesRetention:
     text: "Retenção de Fleurette"
+    optional: "true"
   lizettesVision:
     text: "Visão de Lizette"
+    optional: "true"
   belindasField:
     text: "Campo de Belinda"
+    optional: "true"
   astleysTerritory:
     text: "Território de Astley"
+    optional: "true"
   hametsRestock:
     text: "Restoque de Hamet"
+    optional: "true"
   knotleysFleetness:
     text: "Agilidade de Knotley"
+    optional: "true"
   xixsExpeditiousness:
     text: "Rapidez de Xix"
+    optional: "true"
   xandersSwiftness:
     text: "Velocidade de Xander"
+    optional: "true"
   farksRush:
     text: "Avanço de Fark"
+    optional: "true"
   malinsInvestment:
     text: "Investimento de Malin"
+    optional: "true"
   marianesUtilization:
     text: "Utilização de Mariane"
+    optional: "true"
   angelettasFusion:
     text: "Fusão de Angeletta"
+    optional: "true"
   lillynsAdaptability:
     text: "Adaptabilidade de Lillyn"
+    optional: "true"
   glowvalesQuantity:
     text: "Quantia de Glowvales"
+    optional: "true"
   lynnesRange:
     text: "Área de Lynnes"
+    optional: "true"
   kowalskisScope:
     text: "Escopo de Kowalskis"
+    optional: "true"
   hannahsLength:
     text: "Comprimento de Hannah"
+    optional: "true"
   jakesReplacing:
     text: "Substituição de Jake"
+    optional: "true"
   daxtersPromptitude:
     text: "Prontidão de Daxter"
+    optional: "true"
   kamilsAlacrity:
     text: "Prontidão de Kamil"
+    optional: "true"
   horseysHustle:
     text: "Trabalho de Horsey"
+    optional: "true"
   huntersUrgency:
     text: "Urgência de Hunter"
+    optional: "true"
   foxsLimits:
     text: "Limites de Fox"
+    optional: "true"
   gwenaelsDomain:
     text: "Domínio de Gwenael"
+    optional: "true"
   albertonsSwing:
     text: "Balanço de Albertons"
+    optional: "true"
   sporksReplenishment:
     text: "Revitalização de Spork"
+    optional: "true"
   benjaminsScale:
     text: "Balança de Benjamin"
+    optional: "true"
   costellosProgression:
     text: "Progressão de Costello"
+    optional: "true"
   stephaniesInsistence:
     text: "Insistência de Stephanie"
+    optional: "true"
   lonnebroodsExigency:
     text: "Exigência de Lonnebrood"
+    optional: "true"
   albertsSpan:
     text: "Envergadura de Albert"
+    optional: "true"
   johnsonsWidth:
     text: "Comprimento de Johnson"
+    optional: "true"
   poindextersBreadth:
     text: "Peso de Pointdexter"
+    optional: "true"
   belsamethsProficiency:
     text: "Proficiência de Belsameth"
+    optional: "true"
   jadesDestruction:
     text: "Destruição de Jade"
+    optional: "true"
   nedrasProductivity:
     text: "Produtividade de Nedras"
+    optional: "true"
   sengoretsAbundance:
     text: "Abundância de Sengoret"
+    optional: "true"
   elesiasAmplitude:
     text: "Amplitude de Elesias"
+    optional: "true"
   loransFarness:
     text: "Distância de Loran"
+    optional: "true"
   stephensHorizon:
     text: "Horizonte de Stephen"
+    optional: "true"
   rydwaltsSweep:
     text: "Varredura de Rydwalt"
+    optional: "true"
   gregorsProgression:
     text: "Progressão de Gregor"
+    optional: "true"
   rowsdowersDivvy:
     text: "Divisão de Rowsdowers"
+    optional: "true"
   maximiliansTempo:
     text: "Ritmo de Maximilians"
+    optional: "true"
   guybrushsPace:
     text: "Ritmo de Guybrush"
+    optional: "true"
   mcAllistersSkills:
     text: "Habilidades de McAllisters"
+    optional: "true"
   threepwoodsFaculty:
     text: "Faludade de Threepwoods"
+    optional: "true"
   ajarnsStandard:
     text: "Estandarte de Ajarns"
+    optional: "true"
   chartsScale:
     text: "Balança de Chart"
+    optional: "true"
   martinsOvercharge:
     text: "Supercarga de Martin"
+    optional: "true"
   nathansPotential:
     text: "Potenciais de Nathan"
+    optional: "true"
   marcsMuscle:
     text: "Músculo de Marc"
+    optional: "true"
   camillesPush:
     text: "Impulso de Camille"
+    optional: "true"
   vichetsRange:
     text: "Alcance de Vichet"
+    optional: "true"
   alexandersQuota:
     text: "Cota de Alexandre"
+    optional: "true"
   qinsApportionment:
     text: "Proporção de Qin"
+    optional: "true"
   johsRate:
     text: "Taxa de Joh"
+    optional: "true"
   earnestsDispatchment:
     text: "Despache de Earnest"
+    optional: "true"
   troysCelerity:
     text: "Celeridade de Troy"
+    optional: "true"
   morikhanninsPowder:
     text: "Pó de Morikhannins"
+    optional: "true"
   gaborsSupercharge:
     text: "Supercarga de Gabor"
+    optional: "true"
   ushalgsClout:
     text: "Influência de Ushalg"
+    optional: "true"
   billsShifting:
     text: "Movimento de Bill"
+    optional: "true"
   wesleysCreation:
     text: "Criação de Wesley"
+    optional: "true"
   bondesExpansion:
     text: "Expansão de Bonde"
+    optional: "true"
   roguesSpread:
     text: "Dispersão de Rogue"
+    optional: "true"
   hatschimakisFoundation:
     text: "Fundamento de Hatschimaki"
+    optional: "true"
   uptonsDuress:
     text: "Ameaça de Upton"
+    optional: "true"
   jonasFury:
     text: "Fúria de Jona"
+    optional: "true"
   leonidsExhaustion:
     text: "Exaustão de Leonid"
+    optional: "true"
   damianosFormulation:
     text: "Formulação de Damianos"
+    optional: "true"
   raissasProduction:
     text: "Produção de Raissa"
+    optional: "true"
   lilosReprisal:
     text: "Reprise de Lilos"
+    optional: "true"
   hildasCache:
     text: "Estoque de Hilda"
+    optional: "true"
   charmainesReserve:
     text: "Reserva de Charmaine"
+    optional: "true"
   fridasAuxiliary:
     text: "Auxílio de Frida"
+    optional: "true"
   faithofPompeii:
     text: "Fé de Pompéia"
+    optional: "true"
   brigettesMotility:
     text: "Mobilidade de Brigette"
+    optional: "true"
   ceciliasEstate:
     text: "Propriedade de Cecilia"
+    optional: "true"
   almasAdjuvant:
     text: "Adjuvante de Alma"
+    optional: "true"
   jordansEquity:
     text: "Equidade de Jordan"
+    optional: "true"
   marquisasAllotment:
     text: "Lote da Marquesa"
+    optional: "true"
   piasPower:
     text: "Poder de Pia"
+    optional: "true"
   madalenesDisembark:
     text: "Desembarque de Madalene"
+    optional: "true"
   huldasFleetness:
     text: "Rapidez de Hulda"
+    optional: "true"
   olympesGenesis:
     text: "Gênese de Olympe"
+    optional: "true"
   ashleesAnchor:
     text: "Âncora de Ashlee"
+    optional: "true"
   lorrainasAccess:
     text: "Acesso de Lorraina"
+    optional: "true"
   mckenziesattainanance:
     text: "Obtenção de Mckenzie"
+    optional: "true"
   parksSubservience:
     text: "Servitude de Park"
+    optional: "true"
   corinsWeight:
     text: "Peso de Corin"
+    optional: "true"
   roswellsMobility:
     text: "Mobilidade de Roswell"
+    optional: "true"
   hammettsVoyaging:
     text: "Viagens de Hammet"
+    optional: "true"
   wadesPromptness:
     text: "Vivacidade de Wades"
+    optional: "true"
   nottleysBriskness:
     text: "Agilidade de Nottley"
+    optional: "true"
   colbysBustle:
     text: "Energia de Colby"
+    optional: "true"
   pellsFlight:
     text: "Vôo de Pell"
+    optional: "true"
   chestersEmbarkment:
     text: "Embarque de Chester"
+    optional: "true"
   brooksOrbit:
     text: "Órbita de Brook"
+    optional: "true"
   xaverinesCompass:
     text: "Bússola de Xaverine"
+    optional: "true"
   mariechensHorizon:
     text: "Horizonte de Mariechen"
+    optional: "true"
   mildenhallsGrowth:
     text: "Crescimento de Mildenhall"
+    optional: "true"
   finjasFarness:
     text: "Distância de Finja"
+    optional: "true"
   stampersExtent:
     text: "Extensão de Stamper"
+    optional: "true"
   mikklesEagerness:
     text: "Vontade de Mikkles"
+    optional: "true"
   ahmedsGait:
     text: "Andar de Ahmed"
+    optional: "true"
   gavinsPromptitude:
     text: "Prontidão de Gavin"
+    optional: "true"
   howellsExertion:
     text: "Esforço de Howell"
+    optional: "true"
   dalyngriggesMoxie:
     text: "Ginga de Dalyngrigge"
+    optional: "true"
   igorsEnergy:
     text: "Energia de Igor"
+    optional: "true"
   kilosDrive:
     text: "Impulso de Kilos"
+    optional: "true"
   caseysEfficiency:
     text: "Eficiência de Casey"
+    optional: "true"
   mcChrystalsFlurry:
     text: "Agitação de McChrystal"
+    optional: "true"
   boltonsRush:
     text: "Avanço de Bolton"
+    optional: "true"
   edwardsMunitions:
     text: "Munição de Edward"
+    optional: "true"
   middlecoatsArms:
     text: "Armas de Middlecoat"
+    optional: "true"
   caseysOrdnance:
     text: "Artilharia de Casey"
+    optional: "true"
   oslauthsDepository:
     text: "Depósito de Oslauth"
+    optional: "true"
   manlysArsenal:
     text: "Arsenal de Manly"
+    optional: "true"
   terimortsAbridgment:
     text: "Resumo de Terimort"
+    optional: "true"
   unveilingofVaelophis:
     text: "Desvendamento de Vaelophis"
+    optional: "true"
   leyasCompression:
     text: "Compressão de Leya"
+    optional: "true"
   scottaugsIntroduction:
     text: "Introdução de Scottaug"
+    optional: "true"
   serarosActualization:
     text: "Realização de Seraro"
+    optional: "true"
   avenarMultiplication:
     text: "Multiplicação Avenar"
+    optional: "true"
   nyxsExaggeration:
     text: "Exagero de Nyx"
+    optional: "true"
   garkneesAugmentation:
     text: "Melhoria de Garknee"
+    optional: "true"
   drogcartersAccumulation:
     text: "Acúmulo de Drogcarter"
+    optional: "true"
   visermyersRise:
     text: "Ascendência de Visermyer"
+    optional: "true"
   gingersSpirit:
     text: "Espírito de Ginger"
+    optional: "true"
   rainesGrowth:
     text: "Crescimento de Raines"
+    optional: "true"
   blessingofNoveriah:
     text: "Bênção de Noveriah"
+    optional: "true"
   perookiesScent:
     text: "Perfume de Perookie"
+    optional: "true"
   hadrinasHabitat:
     text: "Habitat de Hadrinas"
+    optional: "true"
   limbysThrift:
     text: "Economia de Limbys"
+    optional: "true"
   deductionofSalvak:
     text: "Dedução de Salvak"
+    optional: "true"
   noteofBlasphemy:
     text: "Nota de Blasfêmia"
+    optional: "true"
   dayaphimasBarter:
     text: "Barganha de Dayaphimas"
+    optional: "true"
   tamanesRecession:
     text: "Recessão de Tamanes"
+    optional: "true"
   keithsFlourishing:
     text: "Florescimento de Keith"
+    optional: "true"
   nizzsStrengthening:
     text: "Reenforço de Nizz"
+    optional: "true"
   robertsUnwrinkling:
     text: "Alisamento de Robert"
+    optional: "true"
   rugmuksIndelibility:
     text: "Permanência de Rugmuk"
+    optional: "true"
   austinsFiber:
     text: "Fibra de Austin"
+    optional: "true"
   domorosTake:
     text: "Parcela de Domoro"
+    optional: "true"
   marcelosHaul:
     text: "Rancho de Marcelo"
+    optional: "true"
   kittenheartsBooty:
     text: "Prêmio de Kittenheart"
+    optional: "true"
   pettigrewsSqueeze:
     text: "Aperto de Pettigrew"
+    optional: "true"
   sungwoosPillages:
     text: "Saque de Sungwoo"
+    optional: "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Time Module
@@ -1290,10 +1665,23 @@ console:
         text: "{buildingName} $WHI0foi construído."
       dismantled:
         text: "{buildingName} $YEL1foi demolido."
-    autosave:
-      text: "$GRE1Jogo salvo $WHI0-$GRE2 {time}"
     save:
-      text: "$GRE1Jogo salvo, em $WHI0-$GRE2 {time}"
+      region:
+        auto:
+          dataGather:
+            text: "$GRE1Autosave: Dados da Região Recolhido, levou $YEL2 {time}"
+          dataWritten:
+            text: "$GRE1Autosave: Dados da Região Gravado, Levou $YEL2{time}$GRE1, Save Número $YEL2{saveNumber}"
+        full:
+          text: "$GRE1Salvamento Completo:  Dados da Região Recolhido e Gravado, Levou$GRE2 {time}"
+      world:
+        auto:
+          dataGather:
+            text: "$GRE1Autosave: Dados do Mundo Recolhido, Levou $YEL2 {time}"
+          dataWritten:
+            text: "$GRE1Autosave: Dados do Mundo Gravado, Levou $YEL2{time}$GRE1, Save Número $YEL2{saveNumber}"
+        full:
+          text: "$GRE1Salvamento Completo: Dados do Mundo Recolhido e Gravado, Levou$GRE2 {time}"
     fullMapScreenshot:
       text: "Captura completa do mapa salva em $GRE1{filePath}"
     screenshot:
@@ -1642,6 +2030,15 @@ goal:
       specific:
         text: "Crie $GRE1{amount}$WHI0 {resourceNamePlural} $WHI0em $GRE1{mapName}$WHI0!"
         
+  trash:
+    header:
+      text: "Processo {resourceName}"
+    body:
+      any:
+        text: "Processo $GRE1{amount}$WHI0 {resourceName}$GRE1 em qualquer região$WHI0!"
+      specific:
+        text: "Processo $GRE1{amount}$WHI0 {resourceName}$WHI0 em $GRE1{mapName}$WHI0!"
+        
   survive:
     header:
       text: "Sobreviva"
@@ -1871,7 +2268,6 @@ mainMenuMapListButton:
       
   totalMaps:
     text: "Total: {totalMaps}"
-    forceCount: "true"
   pageList:
     text: "Página: {currentPage} de {totalPages}"
    
@@ -1912,12 +2308,24 @@ mainMenuCredits:
   button:
     back:
       text: "Voltar"
+      
+  creditLine:
+    fallenShogun:
+      text: "Tutorial Brit"
+    shade:
+      text: "Criando o Bioma das Areias Vermelhas"
+    veldrin:
+      text: "Diversas correções pequenas e essenciais de bugs"
   
   header:
     developer:
       text: "$GRE1Desenvolvedor, Programador e Artista"
     music:
       text: "$GRE1Trilha Sonora"
+    communityModerator:
+      text: "$GRE1Moderador da comunidade"
+    contributors:
+      text: "$GRE1Colaboradores da comunidade"
     thanks:
       text: "$YEL1Agradecimentos especiais aos meus apoiadores no Kickstarter e Patreon!"
     patreons:
@@ -2058,8 +2466,8 @@ mainMenuMainMenuPanel:
     scrubMapImages:
       text: "Scrub Map Images"
       optional: "true"
-    generateMapSheet:
-      text: "Generate Map Sheet"
+    generateMobSheet:
+      text: "Generate Mob Sheet"
       optional: "true"
     runLineCounter:
       text: "Run Line Counter"
@@ -2223,15 +2631,6 @@ mapEditorNewMapPanel:
       text: "Areia (Preta)"
     sandRed:
       text: "Areia (Vermelha)"
-    mapSize:
-      large:
-        text: "Grande"
-      medium:
-        text: "Médio"
-      small:
-        text: "Pequeno"
-      empty:
-        text: "Vazio"
         
   textInput:
     name:
@@ -2248,8 +2647,6 @@ mapEditorNewMapPanel:
       text: "$ORA1Autor do Mapa"
     baseTerrain:
       text: "$ORA1Terreno Base"
-    size:
-      text: "$ORA1Tamanho"
       
   mapExistsWarning:
     text: "$RED1MAPA JÁ EXISTE EM {mapPackName}"
@@ -2335,7 +2732,7 @@ mainMenuSelectProfilePanel:
       text: "$YEL0Perfis"
       
   corruptProfile:
-    text: "Perfil Corrupto"
+    text: "Perfil Corrompido"
   outdatedProfilePrefix:
     text: "(OBSOLETO) {profileName}"
   outdatedWarning:
@@ -2393,7 +2790,6 @@ mainMenuSkirmishPanel:
       text: "Calmo"
     sandbox:
       text: "Sandbox"
-      forceCount: "true"
       
   header:
     gameMode:
@@ -2413,7 +2809,6 @@ mainMenuSkirmishPanel:
         text: "$CYA1-Calmo-"
       sandbox:
         text: "$MAG1-Sandbox-"
-        forceCount: "true"
     body:
       nightmare:
         text: "Um modo de jogo impossível, injusto e brutal. Para masoquistas!"
@@ -2546,6 +2941,18 @@ mapEditorPlayRightPanel:
   javaClass2: "rtr.gui.states.playstate.RightPanel.java"
   
   button:
+    tooltip:
+      buildHeader:
+        text: "Constuir"
+      roadsAndDiggingHeader:
+        text: "Estradas e Escavação"
+      roadsAndDigging:
+        text: "Requer Cabana do Estradista"
+      tilesHeader:
+        text: "Terreno"
+      sandboxToolsHeader:
+        text: "Ferramentas Sandbox"
+        
     navigation:
       back:
         text: "Voltar uma Página"
@@ -2593,6 +3000,8 @@ mapEditorPlayRightPanel:
         text: "Refinamento"
       storage:
         text: "Estoque"
+      trash:
+        text: "Lixo"
       walls:
         text: "Paredes"
       special:
@@ -2759,28 +3168,55 @@ mapEditorPlayRightPanel:
         text: "Estoque de Pedra"
       woodStorage:
         text: "Estoque de Madeira"
+        
+    trash:
+      burner:
+        text: "Queimador"
+      cubeEGolemCombobulator:
+        text: "Cube-E Golem Combobulator"
+      landfill:
+        text: "Aterro"
+      processor:
+        text: "Processador"
+      trashCan:
+        text: "Lixeira"
+      trashyCubePile:
+        text: "Pilha de Cubo de Lixo"
       
     walls:
-      woodFence:
-        text: "Muro de Madeira"
-      woodFenceGateNS:
-        text: "Portão de Madeira (N/S)"
-      woodFenceGateWE:
-        text: "Portão de Madeira (O/L)"
+      curtainWall:
+        text: "Parede-Cortina"
       stoneWallGateNS:
         text: "Portão de Pedra (N/S)"
       stoneWallGateWE:
         text: "Portão de Pedra (O/L)"
       stoneWall:
         text: "Muro de Pedra"
-      curtainWall:
-        text: "Parede-Cortina"
+      trashyCubeWall:
+        text: "Muro de Cubos de Lixo"
+      woodFence:
+        text: "Muro de Madeira"
+      woodFenceGateNS:
+        text: "Portão de Madeira (N/S)"
+      woodFenceGateWE:
+        text: "Portão de Madeira (O/L)"
       
     special:
       camp:
         text: "Acampamento"
       lootBox:
         text: "Baú"
+        
+    roadsAndDigging:
+      tooltip:
+        digHoleHeader:
+          text: "Cavar um buraco"
+        digHole:
+          text: "Cavar buracos no chão que se encherão de água na próxima vez que chover."
+        dismantleRoadsHeader:
+          text: "Desmantelar Estradas"
+        dismantleRoads:
+          text: "Remover completamente uma estrada ou caminho."
       
     tiles:
       bricks:
@@ -2799,7 +3235,6 @@ mapEditorPlayRightPanel:
         text: "Cascalho"
       lava:
         text: "Lava"
-        forceCount: "true"
       roads:
         text: "Estradas"
       rock:
@@ -2884,7 +3319,6 @@ mapEditorPlayRightPanel:
     lava:
       lava:
         text: "Lava"
-        forceCount: "true"
       
     roads:
       path:
@@ -2905,6 +3339,10 @@ mapEditorPlayRightPanel:
         text: "Estrada Reforçada (Restos)"
       cutStoneAndBoardRoad:
         text: "Estrada Reforçada"
+      digHole:
+        text: "Cavar Buraco"
+      dismantleRoads:
+        text: "Desmantelar Estrada"
       
     rock:
       blackRock:
@@ -2975,13 +3413,13 @@ mapEditorPlayRightPanel:
         text: "Água"
       
     time:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
       toggleTime:
         text: "Alternar Tempo"
       
     spawning:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
       spawnMob:
         text: "Spawnar Mob"
@@ -2989,13 +3427,15 @@ mapEditorPlayRightPanel:
         text: "Spawnar Recurso"
       
     particles:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
-      emitParticles:
+      emitSingleParticles:
         text: "Emitir Partículas"
+      emitGroupParticles:
+        text: "Emitir partículas do grupo"
       
     miscellaneous:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
       emitEssence:
         text: "Emitir Essência"
@@ -3012,7 +3452,7 @@ mapEditorPlayRightPanel:
         
   header:
     time:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
       currentDay:
         text: "Dia Atual"
@@ -3026,7 +3466,7 @@ mapEditorPlayRightPanel:
         text: "Começar a Passagem de Tempo"
       
     spawning:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
       mobType:
         text: "Tipo de Monstro"
@@ -3042,10 +3482,12 @@ mapEditorPlayRightPanel:
         text: "Quantidade de Monstros"
       
     particles:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
       particleType:
         text: "Tipo de Partícula"
+      particleGroup:
+        text: "Grupo de Partículas"
       particleColor:
         text: "Cor da Partícula"
       particleAmount:
@@ -3056,7 +3498,7 @@ mapEditorPlayRightPanel:
         text: "Ângulo"
       
     miscellaneous:
-      comment: Sandbox Mode Only
+      comment: Somente Modo Sandbox
       
       essenceAmount:
         text: "Quantia de Essência"
@@ -3292,7 +3734,71 @@ playBuildingListPanel:
     text: "Lista de Estruturas      Pg: {currentPage} de {totalPages}"
   buildingPaused:
     text: "$YEL1 (Pausado)"
+    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Play State
+# Resource List Panel
+# rtr.gui.states.playstate.ResourceListPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+playResourceListPanel:
+  comment: "Play State - Resource List Panel Bar"
+  javaClass: "rtr.gui.states.playstate.ResourceListPanel.java"
+  
+  button:
+    tooltip:
+      sortingHeader:
+        text: "Classificação"
+      sorting:
+        text: "Altere o filtro de exibição de Classificação."
+        
+  tooltip:
+    resourceCountAndStorageHeader:
+      text: "Contagem / Armazenamento de Recursos"
+    resourceCountAndStorage:
+      text: "Quantidade de {resourceNamePlural} na aldeia com base no filtro de classificação selecionada e na quantidade total de espaço de armazenamento restante não utilizados que podem conter {resourceName}."
+    totalGoldCoinsHeader:
+      text: "Total de Moedas de Ouro"
+    totalGoldCoins:
+      text: "Quantidade total de moedas de ouro em toda a aldeia."
+    totalWaterHeader:
+      text: "Total de Água"
+    totalWater:
+      text: "Total de água potável em todos os edifícios combinados que podem armazená-lo, como coletores de chuva, casas e poços. Não inclui água suja."
+    totalDirtyWaterHeader:
+      text: "Total de Água Suja"
+    totalDirtyWater:
+      text: "Total de água não potável em todos os edifícios combinados que podem armazená-lo, como fazendas e purificadores de água. Não inclui água potável."
+    totalResourcesHeader:
+      text: "Recursos Totais"
+    totalResources:
+      text: "Contagem total de recursos em toda a aldeia, com base no filtro de classificação selecionado à esquerda do painel."
+    showResourceOnBarHeader:
+      text: "Mostrar {resourceName}"
+    showResourceOnBar:
+      text: "Mostrar {resourceName} e sua contagem de recursos na barra de recursos superior."
+    fullResourceOnBarHeader:
+      text: "Barra Cheia!"
+    hideResourceOnBarHeader:
+      text: "Esconder {resourceName}"
+    hideResourceOnBar:
+      text: "Esconder {resourceName} e sua contagem de recursos na barra de recursos superior."
+      
+  sort:
+    total:
+     text: "Total"
+    equip:
+      text: "Equipado"
+    carry:
+      text: "Carregado"
+    ground:
+      text: "No Chão"
+    stored:
+      text: "Em Estoque"
+      
+  header:
+    text: "Lista de Recursos"
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
 # Castle Panel
@@ -3578,7 +4084,6 @@ playLeftPanel:
     sort:
       total:
         text: "Total"
-        forceCount: "true"
       equip:
         text: "Equipado"
       carry:
@@ -3693,7 +4198,6 @@ playLeftPanel:
     sort:
       total:
         text: "Total"
-        forceCount: "true"
       equip:
         text: "Equipado"
       carry:
@@ -3756,16 +4260,24 @@ playOverlay:
   roads:
     canNotImprove:
       text: "Não pode ser melhorado"
+    sameOrBetter:
+      text: "O Mesmo ou o Melhor"
+    noRoadSelected:
+      text: "Nenhuma Estrada selecionada"
     roadCostFree:
       text: "{nextRoadName}~$GRE1Custo: GRÁTIS!"
+      revision: "1"
     roadCost:
       text: "{nextRoadName}~$YEL1Custo: 1 {resourceName}"
+      revision: "1"
   
   general:
     cancelAction:
       text: "Pressione $GRE1{shortcutKey} $WHI0ou o $GRE1MIDDLE MOUSE BUTTON$WHI0 para cancelar a ação atual e voltar ao modo de seleção."
     unassignWork:
       text: "Segure $GRE1{shortcutKey} $YEL1para remover da seleção."
+    selectAllConnected:
+      text: "Segure $GRE1{shortcutKey} $YEL1para selecionar todos conectados."
     deleteObjects:
       text: "Segure $GRE1{shortcutKey} $YEL1para deletar objeto."
     castFree:
@@ -4086,7 +4598,6 @@ playProblemPanel:
     monstersAttackingBuildingsPlural:
       text: "* $ORA1{amount} monstros estão atacando uma estrutura."
 
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
 # Resource and Influence Bar"
@@ -4105,6 +4616,10 @@ playResourceAndInfluenceBar:
         text: "Mudar o filtro de visualização de totais."
         
   tooltip:
+    resourceCountAndStorageHeader:
+      text: "Contagem / Armazenamento de Recursos"
+    resourceCountAndStorage:
+      text: "Quantidade de {resourceNamePlural} na aldeia com base no filtro de classificação selecionado e na quantidade total de espaço de armazenamento não utilizado restante que pode conter {resourceName}."
     totalGoldCoinsHeader:
       text: "Total de Moedas de Ouro"
     totalGoldCoins:
@@ -4121,11 +4636,14 @@ playResourceAndInfluenceBar:
       text: "Influência"
     totalInfluence:
       text: "Total de influência que você atualmente tem para usar encantamentos. Influência é regenarada lentamente ou movendo sua mão sobre essência solta pelo mundo. Você pode aumentar sua influência máxima aumentando a população de sua aldeia."
-  
+    corruptionThreatHeader:
+      text: "Ameaça de Corrupção"
+    corruptionThreat:
+      text: "A ameaça aumenta à medida que a corrupção fica presa. Quanto mais espaço no mapa a corrupção desejar controlar e não puder, maior será essa barra. Como resultado, mais monstros irão aparecer além das já crescentes taxas diárias de spawn."
+
   sort:
     total:
      text: "Total"
-     forceCount: "true"
     equip:
       text: "Equipado"
     carry:
@@ -4162,6 +4680,10 @@ playSelectedMobPanel:
       text: "Felicidade"
     happiness:
       text: "Baixa felicidade vai afetar sua performance no trabalho e expectativa de vida. Dependendo do tipo de criatura isto pode ser aumentado satisfazendo suas necessidades básicas de comida, água, habitação, socialização e outros parâmetros"
+    trashHeader:
+      text: "Nível de Lixo"
+    trash:
+      text: "A quantidade de lixo que está sendo armazenada dentro dessa criatura. Criatura como o Cubo-E Golem produzirá um cubo de lixo quando esta barra estiver cheia."
     bodyTemperatureHeader:
       text: "Temperatura Corporal"
     bodyTemperature:
@@ -4204,7 +4726,6 @@ playSelectedMobPanel:
       text: "A constituição total da criatura, influencia sua expectativa de vida. Quando necessidades básicas não são satisfeitas ou quantos mais conflitos, doenças e feridas ela tem na sua vida, o mais rapidamente sua constituição baixa, diminuindo sua expectativa de vida."
     socialHeader:
       text: "Social"
-      forceCount: "true"
     social:
       text: "Social baixa causa uma diminuição na felicidade, mas se existem criaturas em volta com quem conversar, ela tirará uma folga e baterá papo, aumentando sua social. Anciões irão transmitir sua saberia enquanto conversam, dando experiência ao recipiente."
     strengthHeader:
@@ -4300,10 +4821,6 @@ playSelectedObjectPanel:
       text: "Atração"
     landDesirability:
       text: "O quanto esta torna o terreno em sua área de construção atraente. Aldeões preferem áreas atraentes quando não tem nenhuma tarefa ativa na aldeia."
-    corruptionResistanceHeader:
-      text: "Resistência à Corrupção"
-    corruptionResistance:
-      text: "O quanto esta estrutura torna o terreno à sua volta resistente à corruptção. A resistência à corrupção para ou retrai a corrupção em torno da estrutura."
     providedDailyMigrationsHeader:
       text: "Despaches Diários"
     providedDailyMigrations:
@@ -4422,6 +4939,7 @@ playSelectedObjectPanel:
         text: "Demolir Estrutura"
       dismantleBuilding:
         text: "Demolir esta estrutura e recuperar parte dos materiais utilizados na sua construção."
+        revision: "1"
       buildingPriorityHeader:
         text: "Prioridade da Construção"
       buildingPriority:
@@ -4448,7 +4966,8 @@ playSelectedObjectPanel:
   staticTowerDamageOverride:
     text: "Dano"
   staticTowerDamageOverrideAmount:
-    text: "$GRE1Elétrico $RED0(3-8)"
+    text: "$GRE1Elétrico $RED0(10-50)"
+    revision: "1"
   chargedDamage:
     text: "Dano Carregado"
   damage:
@@ -4459,7 +4978,8 @@ playSelectedObjectPanel:
     text: "$CYA1Bônus Globais"
   globalSpeed:
     text: "$GRE0{amount}% $WHI0Global"
-    forceCount: "true"
+  processingTrashSpeed:
+    text: "$GRE0{amount}% $WHI0Processando Lixo"
   buildingSpeed:
     text: "$GRE0{amount}% $WHI0Construção"
   buildRoadSpeed:
@@ -4532,7 +5052,6 @@ playSelectedObjectUpgradePanel:
     text: "$YEL1+{amount} Energia"
   globalSpeed:
     text: "$GRE0+{amount}% $WHI0Global"
-    forceCount: "true"
   buildingSpeed:
     text: "$GRE0+{amount}% $WHI0Construção"
   buildRoadSpeed:
@@ -6277,7 +6796,7 @@ worldMapSystemPanel:
       doomWorldHeader:
         text: "Destruir Mundo"
       doomWorld:
-        text: "Completamente destrói o mundo, apagando todo progresso. Você mantém seus perks desbloqueados, experiência divina e baús."
+        text: "Destrói completamente o mundo, apagando todo progresso. Você mantém seus perks desbloqueados, experiência divina e baús."
       viewGameModeConfigHeader:
         text: "Ver Conf. da Dificuldade"
       viewGameModeConfig:
@@ -9027,6 +9546,7 @@ object:
           text: "Lar Improvisado"
         description:
           text: "Base para novas habitações na sua aldeia. Pode ser aprimorado para maior espaço, qualidade ou um equilíbrio de ambos. Tenha certeza de manter espaço o suificiente para todos!"
+          revision: "1"
       baseHighOccupancy:
         name:
           text: "Barraco"
@@ -9052,6 +9572,7 @@ object:
           text: "Casa"
         description:
           text: "Aumenta o espaço para aldeões, estoque e conforto na mesma medida. Uma boa escolha quando você quer espaço para mais aldeões, mas não quer as desvantagens de um barraco."
+          revision: "1"
       largeStandard:
         name:
           text: "Casa Grande"
