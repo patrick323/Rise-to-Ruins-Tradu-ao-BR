@@ -5054,6 +5054,8 @@ playSelectedObjectUpgradePanel:
     text: "$GRE0+{amount}% $WHI0Global"
   buildingSpeed:
     text: "$GRE0+{amount}% $WHI0Construção"
+  processingTrashSpeed:
+    text: "$GRE0+{amount}% $WHI0Processamento de Lixo"
   buildRoadSpeed:
     text: "$GRE0+{amount}% $WHI0Construção (Estrada)"
   dismantlingSpeed:
@@ -5085,7 +5087,8 @@ playSelectedObjectUpgradePanel:
   healthRegenerationMinus:
     text: "$RED0{amount} $WHI0Regeneração"
   staticTowerDamageOverride:
-    text: "Dano: $GRE1Elétrico (3-8)"
+    text: "Dano: $GRE1Elétrico (10-50)"
+    revision: "1"
   chargedDamage:
     text: "Dano Carregado: $GRE1{damageType} (+{damageMinimum}-{damageMaximum})"
   damage:
@@ -5100,24 +5103,18 @@ playSelectedObjectUpgradePanel:
     text: "Velocidade de Recarga: $GRE1+{amount}"
   firingRange:
     text: "Alcance: $GRE1+{amount}"
-  canSpawnCreatures:
-    text: "Pode Spawnar Criaturas"
-  spawnsMob:
-    text: "Spawna $GRE1{mobName}"
-  maximumSpawns:
-    text: "Spawns Máximos: $GRE1+{amount}"
+  canSpawnGolems:
+    text: "Pode Spawnar Golens"
+  spawnsGolems:
+    text: "Spawns $GRE1{mobName}"
+  maximumGolems:
+    text: "Golens Maximos: $GRE1+{amount}"
   spawnNeedsResourcesAndEnergy:
     text: "Necessita $GRE1{resourceName}$WHI0 e $GRE1+{amount} Energy$WHI0 para Spawnar"
-  spawnNeedsEnergy:
-    text: "Necessita $GRE1+{amount} Energia $WHI0para Spawnar"
-  spawnNeedsResources:
-    text: "Necessita $GRE1{resourceName}$WHI0 para Spawnar"
   rangeGenerated:
     text: "Área Gerada: $GRE1+{amount}"
   desirability:
     text: "Atração: $GRE1+{amount}"
-  corruptionResistance:
-    text: "Resistência à Corrupção: $GRE1+{amount}"
   guardHousingCapacity:
     text: "Quartos para Guardas: $GRE1+{amount}"
   housingCapacity:
@@ -5186,7 +5183,6 @@ playStatisticsPanel:
     villagers:
       total:
         text: "Total"
-        forceCount: "true"
       gender:
         text: "Gênero"
       immigration:
@@ -5225,7 +5221,6 @@ playStatisticsPanel:
     animals:
       total:
         text: "Total"
-        forceCount: "true"
       gender:
         text: "Gênero"
       domesticated:
@@ -5246,7 +5241,6 @@ playStatisticsPanel:
     buildings:
       totalBuildings:
         text: "Total"
-        forceCount: "true"
       builtBuildings:
         text: "Construídas"
       upgradedBuildings:
@@ -5285,7 +5279,6 @@ playStatisticsPanel:
     resources:
       totalResources:
         text: "Total"
-        forceCount: "true"
       productionRate:
         text: "Taxa de Produção"
       foodAndWater:
@@ -5531,6 +5524,10 @@ playSystemAndDataBar:
         text: "Lista de Estruturas ({shortcutKey})"
       buildingList:
         text: "Veja uma lista de estruturas na aldeia, e gerencie prioridades de construção."
+      resourceListHeader:
+        text: "Lista de Recursos"
+      resourceList:
+        text: "Veja uma lista de todos os recursos na aldeia e personalize a barra superior de recursos."
       populationListHeader:
         text: "Censo Populacional ({shortcutKey})"
       populationList:
@@ -5564,18 +5561,6 @@ playToolsBar:
         text: "Demolir Estruturas ({shortcutKey})"
       dismantleBuildings:
         text: "Demolir uma estrutura recupera parte dos materiais utilizados na sua construção. $RED1Isto NÃO pode ser desfeito!"
-      digHeader:
-        text: "Cavar Buraco ({shortcutKey})"
-      dig:
-        text: "Cavar buracos no chão que irão se encher de água na próxima vez que chover."
-      createOrUpgradeRoadsHeader:
-        text: "Criar ou Melhorar Estradas"
-      createOrUpgradeRoads:
-        text: "Selecione terreno vazio para construir caminhos, ou melhore caminhos e estradas existentes. Estradas e caminhos aumentam a velocidade de todas as entidades que caminham sobre elas."
-      dismantleRoadsHeader:
-        text: "Demolir Estradas"
-      dismantleRoads:
-        text: "Remove uma estrada ou caminho completamente."
       destroyTerrainHeader:
         text: "Destruir Terreno"
       destroyTerrain:
@@ -5605,6 +5590,8 @@ playVillageEfficiencyPanel:
     text: "Velocidade Global"
   weather:
     text: "Clima"
+  processTrash:
+    text: "Lixo Processado"
   building:
     text: "Construção"
   repairing:
@@ -5686,7 +5673,6 @@ playWeatherPanel:
       text: "$RED1Lua Escarlate"
     eclipse:
       text: "$YEL1Eclipse"
-      forceCount: "true"
       
   day:
     text: "$GRE1DIA {day}"
@@ -5767,6 +5753,8 @@ sharedDataViewsPanel:
       text: "Durabilidade de Estradas"
     villageThreatMap:
       text: "Ameaça à Aldeia"
+    threatenedTileMap:
+      text: "Ameaça do Terreno do Mapa"
       
   header:
     text: "Visualizar Dados"
@@ -5906,7 +5894,8 @@ playRightObjectDescriptionPanel:
   energy:
     text: "$YEL1{amount} Energia"
   staticTowerDamageOverride:
-    text: "Dano: $GRE1Elétrico (3-8)"
+    text: "Dano: $GRE1Elétrico (10-50)"
+    revision: "1"
   chargedDamage:
     text: "Dano Carregado: $GRE1{damageType} ({damageMinimum}-{damageMaximum})"
   damage:
@@ -5923,24 +5912,18 @@ playRightObjectDescriptionPanel:
     text: "Velocidade de Recarga: $GRE1{amount}"
   firingRange:
     text: "Alcance: $GRE1{amount}"
-  canSpawnCreatures:
-    text: "Pode Spawnar Criaturas"
-  spawnsMob:
+  canSpawnGolems:
+    text: "Pode Spawnar Golens"
+  spawnsGolems:
     text: "Spawna $GRE1{mobName}"
-  maximumSpawns:
-    text: "Spawns Máximos: $GRE1{amount}"
-  spawnNeedsResourcesAndEnergy:
-    text: "Necessita $GRE1{resourceName}$WHI0 e $GRE1{amount} Energia$WHI0 para Spawnar"
-  spawnNeedsEnergy:
-    text: "Necessita $GRE1{amount} Energia $WHI0para Spawnar"
-  spawnNeedsResources:
-    text: "Necessita $GRE1{resourceName}$WHI0 para Spawnar"
+  maximumGolems:
+    text: "Golens Máximos: $GRE1{amount}"
+  combobulatorNeedsResourcesAndEnergy:
+    text: "Precisa de $GRE1{resourceName}$WHI0 e $GRE1{amount} Energia$WHI0 para Spawnar"
   rangeGenerated:
-    text: "Raio Gerado: $GRE1{amount}"
+    text: "Espaço Gerado: $GRE1{amount}"
   desirability:
     text: "Atração: $GRE1{amount}"
-  corruptionResistance:
-    text: "Resistência à Corrupção: $GRE1{amount}"
   providedMigrationsPerDay:
     text: "Migrantes por Dia: $GRE1{amount}"
   guardHousingCapacity:
@@ -5973,7 +5956,6 @@ sharedSettingsPanel:
   button:
     ok:
       text: "Ok!"
-      forceCount: "true"
     cancel:
       text: "Cancelar"
     reset:
@@ -6073,8 +6055,6 @@ sharedSettingsPanel:
       text: "Coletar Terreno"
     destroyTerrain:
       text: "Destruir Terreno"
-    nextTip:
-      text: "Próxima Dica"
     axisLock:
       text: "Trancar Eixo"
 
@@ -6118,19 +6098,11 @@ sharedSettingsPanel:
       text: "T. C. Só com 'Sem Bordas' Desativado"
     vSync:
       text: "vSync"
-      forceCount: "true"
-    particles:
-      text: "Partículas"
-    particlesRetro:
-      text: "Retrô"
-    particlesSmooth:
-      text: "Suaves"
 
   performance:
-    comment: "Performance column."
+    comment: "Coluna de desempenho."
     header:
       text: "$ORA1Performance"
-      forceCount: "true"
     particleAmount:
       text: "Quantidade de Partículas"
     particleAmountMinimal:
@@ -6155,21 +6127,21 @@ sharedSettingsPanel:
       text: "Fundo"
 
   screenshake:
-    comment: "Screenshake column."
+    comment: "Coluna Screenshake."
     header:
       text: "$ORA1Tremor"
     enabled:
       text: "Tremor Ativado"
 
   tips:
-    comment: "Tips column."
+    comment: "Colunas com Dicas."
     header:
       text: "$ORA1Dicas"
     enabled:
       text: "Dicas Ativadas"
 
   interfaceScale:
-    comment: "Interface scale column."
+    comment: "Coluna de escala de interface."
     header:
       text: "$ORA1Escala de interface"
     auto:
@@ -6182,14 +6154,14 @@ sharedSettingsPanel:
       text: "$RED1Pode causar erros visuais"
 
   twitch:
-    comment: "Twitch integration column."
+    comment: "Coluna de integração do Twitch."
     header:
       text: "$ORA1Integração Twitch"
     channelName:
       text: "Nome do Canal"
 
   changeKeyPanel:
-    comment: "Change key pop up panel."
+    comment: "Alterar o painel pop-up da chave."
     header:
       text: "$ORA1Mudar Atalhos!"
     message:
@@ -6217,9 +6189,6 @@ sharedTipsPanel:
   button:
     ok:
       text: "OK!"
-      forceCount: "true"
-    nextTip:
-      text: "Próxima Dica"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
@@ -6235,37 +6204,6 @@ worldMapChestOpenPanel:
     takeIt:
       text: "Abra!"
       
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# World Map State
-# Corruption Threat Bar
-# rtr.gui.states.worldmap.CorruptionThreatBar.java
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-worldMapCorruptionThreatBar:
-  comment: "World Map State - Corruption Threat Bar"
-  javaClass: "rtr.gui.states.worldmap.CorruptionThreatBar.java"
-  
-  tooltip:
-    worldDayHeader:
-      text: "Dia Mundial"
-    worldDay:
-      text: "O total de dias que se passaram em todas as regiões ativas. Este é um dos dados principais usados no cálculo da ameaça mundial da corrupção."
-    corruptionPowerHeader:
-      text: "Poder da Corrupção"
-    corruptionPower:
-      text: "Este é o cálculo numérico do valor da barra de ameaça abaixo. Valores positivos significam que a ameaça é mais grave que o normal. Você pode diminuir o poder da corrupção completando objetivos ou migrando para outras regiões."
-    worldCorruptionThreatHeader:
-      text: "Ameaça da Corrupção"
-    worldCorruptionThreat:
-      text: "Quanto mais cheia esta barra, mais perigoso o mundo será para seus aldeões. Mais monstros surgirão à noite, monstros mais fortes aparecerão mais cedo e a corrupção se espalhará mais agressivamente."  
-
-  worldDay:
-    text: "Dia Mundial: $GRE1{day}"
-  globalCorruptionPowerGood:
-    text: "Poder da Corrupção: $GRE1{amount}" 
-  globalCorruptionPowerBad:
-    text: "Poder da Corrupção: +$YEL1{amount}"
-    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # World Map State
 # Doom World Panel
@@ -6312,14 +6250,15 @@ worldMapGameModeConfigPanel:
       text: "Voltar"
       
   header:
-    text: "$CYA1Configurações"
+    text: "$CYA1Configuração do Modo de Jogo"
     
   corruption:
     tooltip:
       baseSpawnRateHeader:
         text: "Frenquência"
       baseSpawnRate:
-        text: "A chance de mosntros aparecerem. Menor significa mais monstros! $YEL1(1 em 1 - 20,000, ou nula.)"
+        text: "A chance de mosntros aparecerem. Menor significa mais monstros! $YEL1(1 1,000, ou nula.)"
+        revision: "1"
       boostedChanceMultiplierHeader:
         text: "Fator de Multiplicação"
       boostedChanceMultiplier:
@@ -6328,10 +6267,18 @@ worldMapGameModeConfigPanel:
         text: "Início da Corrupção"
       corruptionStartDay:
         text: "O primeiro dia em que a corrupção chega ao mundo. $YEL1(1 - 200, ou nunca.)"
-      spreadRateHeader:
-        text: "Velocidade da Corrupção"
-      spreadRate:
-        text: "O quão rapidamente a corrupção se alastra. Quanto menor, mais rápido! $YEL1(1 em 5k até 1 em 500k por tick de update)"
+      corruptionDesiredAmountStartHeader:
+        text: "Início Desejado"
+      corruptionDesiredAmountStart:
+        text: "Quanto terreno de corrupção a corrupção irá desejar desde o início. Números mais altos significam uma disseminação mais rápida! $YEL1(64 - 8192)"
+      corruptionDesiredAmountPerDayHeader:
+        text: "Desejado por dia"
+      corruptionDesiredAmountPerDay:
+        text: "Quanto tereno adicional a corrupção deseja ter por dia. Números mais altos significam uma disseminação mais rápida! $YEL1(+64 - 8192 por dia)"
+      corruptionDesiredAmountPerBuildingHeader:
+        text: "Desejado por Construção"
+      corruptionDesiredAmountPerBuilding:
+        text: "Quanto cada edifício construído na corrupção aumentará as taxas de spawn. Números mais altos significam uma disseminação mais rápida! $YEL1(+16 - 512 por dia)"
       buildingRateHeader:
         text: "Velocidade de Construção"
       buildingRate:
@@ -6344,14 +6291,6 @@ worldMapGameModeConfigPanel:
         text: "Área de Dens. de Estruturas"
       buildingDensityRange:
         text: "A área considerada para a 'Densidade de Estruturas' acima. $YEL1(8 - 128)"
-      permanentCorruptionAmountMaxHeader:
-        text: "Máximo de Corr. Permanente"
-      permanentCorruptionAmountMax:
-        text: "Número máximo de tiles que podem ser corrompidos permanentemente. Deve ser igual ou maior que a 'Corrupção Permanente Inicial' acima. $YEL1(64 - 64512)"
-      permanentCorruptionMaxPerDayHeader:
-        text: "Máximo de Corr. Permanente Diária"
-      permanentCorruptionMaxPerDay:
-        text: "Quantos tiles corruptos podem se tornar permanentes diariamente. $YEL1(8 - 2048)"
       
     header:
       text: "$YEL0Corrupção"
@@ -6361,8 +6300,12 @@ worldMapGameModeConfigPanel:
       text: "Fator de Multiplicação"
     corruptionStartDay:
       text: "Início da Corrupção"
-    spreadRate:
-      text: "Velocidade da Corrupção"
+    corruptionDesiredAmountStart:
+      text: "Início Desejado"
+    corruptionDesiredAmountPerDay:
+      text: "Desejado pord Dia"
+    corruptionDesiredAmountPerBuilding:
+      text: "Desejado por Construção"
     buildingRate:
       text: "Velocidade de Construção"
     buildingDensity:
@@ -6438,10 +6381,6 @@ worldMapGameModeConfigPanel:
         text: "Temporada Inicial"
       startingSeason:
         text: "A temporada em que o jogo inicia."
-      dayLengthMultiplierHeader:
-        text: "Duração do Dia"
-      dayLengthMultiplier:
-        text: "Aumenta ou diminui o tempo que um dia dura.. 1.5x é +50%, 0.5x é -50%. $YEL1(0.1x - 30.0x)"
         
     header:
       text: "$YEL0Outros"
@@ -6449,8 +6388,6 @@ worldMapGameModeConfigPanel:
       text: "Variância de Temperatura"
     startingSeason:
       text: "Temporada Inicial"
-    dayLengthMultiplier:
-      text: "Duração do Dia"
     
   weather:
     tooltip:
@@ -6605,7 +6542,6 @@ worldMapGameModeSelectPanel:
       text: "Personalizado"
     sandbox:
       text: "Sandbox"
-      forceCount: "true"
   
   header:
     nightmare:
@@ -6620,7 +6556,6 @@ worldMapGameModeSelectPanel:
       text: "$CYA1Personalizado"
     sandbox:
       text: "$BLU1Sandbox"
-      forceCount: "true"
     selectGameMode:
       text: "$BLU1Selecione Dificuldade"
       
@@ -6656,8 +6591,6 @@ worldMapGoalClaimPanel:
       
   godExperience: 
     text: "Experiência Divina: $YEL0{amount}"
-  globalCorruptionPowerAmount:
-    text: "-{amount} Poder da Corrupção"
   morePerks:
     text: "$YEL0Mais {amount}!"
     
@@ -6749,7 +6682,6 @@ worldMapMapSelectPanel:
     text: "Mais $GRE1{amount}$WHI0 tipos."
   total:
     text: "$YEL1TOTAL: {amount}"
-    forceCount: "true"
   none:
     text: "$YEL1NENHUM!"
     
@@ -6989,7 +6921,8 @@ helpTip:
     corruptionHeader:
       text: "Corrupção"
     corruption:   
-      text: "Como você provavelmente já percebeu, seus aldeões não estão sozinhos nesta região! Conforme o tempo passa, $REDa corrupão$WHI0 vai lentamente se expandir e tomar conta do mapa, aumentando o número de monstros e causando problemas. Existem maneiras de afastar a corrupção. $GRE1Muitas estruturas oferecem resistência à corrupção$WHI0, e alta resistência vai impedir que a corrupção se espalhe, e as vezes até fazer ela retrair! Nem todas estruturas resistem à corrupção, sempre dê uma olhada nas suas propriedades."
+      text: "Como você provavelmente já percebeu, seus aldeões não estão sozinhos nesta região! Conforme o tempo passa, $REDa corrupão$WHI0 vai lentamente se expandir e tomar conta do mapa, aumentando o número de monstros e causando problemas. Existem maneiras de afastar a corrupção. $GRE1Muitas estruturas oferecem resistência à corrupção$WHI0, e alta resistência vai impedir que a corrupção se espalhe, e as vezes até fazer ela retrair! Nem todas estruturas resistem à corrupção, sempre dê uma olhada nas suas propriedades."  
+      revision: "1"
     seasonAutumnHeader:
       text: "Outono"
     seasonAutumn:   
@@ -7006,10 +6939,14 @@ helpTip:
       text: "Verão"
     seasonSummer:   
       text: "Chegou o $YEL1verão$WHI0. Seus aldeões terão que trabalhar no calor escaldante, e frequentemente irão para casa se refrescar. Não espere muita chuva e se prepare para um cultivo de comida mais lento. Com sorte você estocou bastante comida e água durante a $GREprimavera$WHI0!"
+    trashHeader:
+      text: "Lixo"
+    trash:   
+      text: "Você tem lixo por todo lado! Você vai ter que fazer algo sobre isso, ou $YEL1Slimes de Lixo$WHI0 começarão a spawnar! Você pode coletar o lixo do chão construindo $YEL1Aterros sanitários$WHI0 e $YEL1Latas de lixo$WHI0. Você também tem várias maneiras de gerenciar o lixo, como com os $YEL1Queimadores$WHI0 e $YEL1Processadores$WHI0. Uma vez que você conseguir estabilizar as coisas, você pode até encontrar lixo, para ser um poderoso aliado na gestão de recursos da sua aldeia."
     destroyTerrainHeader:
       text: "Destruir Terreno"
     destroyTerrain:
-      text: "Você pode tirar o terreno do seu caminho rapidamente usando a ferrament $GRE1'Destruir Terreno'$WHI0. Apenas $YELclique no botão no canto inferior direito da GUI, selecione o que quer remover$WHI0 e seus trabalhadores irão correndo removê-lo!"
+      text: "Você pode tirar o terreno do seu caminho rapidamente usando a ferramenta $GRE1'Destruir Terreno'$WHI0. Apenas $YELclique no botão no canto inferior direito da GUI, selecione o que quer remover$WHI0 e seus trabalhadores irão correndo removê-lo!"
     cullisGateHeader:
       text: "Portais Cullis"
     cullisGate:   
@@ -7022,6 +6959,18 @@ helpTip:
       text: "Demolir Estrutura"
     dismantle:
       text: "Você pode demolir estruturas clicando no botão $YEL1Demolir Estruturas e Objetos$WHI0 no canto inferior direito da GUI, e então clicando na estrutura que você gostaria de remover. Após marcada, a estrutura será demolida por seus construtores."
+    overharvestingHeader:
+      text: "Colheita"
+    overharvesting:
+      text: "Uau! Devagar lá embaixo. $RED1Você tem recursos demais no chão$WHI0. Você está construindo armazenamento suficiente? $RED1Se os recursos forem deixados no chão por muito tempo, eles podem se decompor e virar lixo, começando a gerar slimes de lixo$WHI0! Se você gostaria de obter um estoque de recursos, $YEL1você deve construir alguns edifícios de armazenamento$WHI0! Eles estão sob a $YEL1aba de armazenamento$WHI0 no painel de criação. Você também pode retardar a colheita, reduzindo o número de trabalhadores da colheita que você tem ou até mesmo definir um limite de colheita no GUI$WHI0painel de produção do lado$YEL1Esquerdo."
+    decayingResourcesHeader:
+      text: "Recursos Decadentes"
+    decayingResources:
+      text: "$RED1Toneladas de recursos no solo estão começando a se decompor em lixo$WHI0Se você não mantiver os recursos fora do chão, eles vão eradiar a sua aldeia com lixo e começar a spawnar Slimes de Lixo! Você deve criar algum armazenamento para seus recursos, ou não colher exageradamente.Se o lixo já está se tornando um problema, certifique-se de $YEL1construir alguns aterros sanitários$WHI0."
+    wallAttackedHeader:
+      text: "Paredes estão sendo atacadas!"
+    wallAttacked:
+      text: "$RED1Monstros estão prestes a atacar seu/sua {buildingName} e abir um buraco em suas defesas!$WHI0 Monstros atacarão suas muralhas se a entrada principal da vila estiver muito congestionada. Você pode evitar isso construindo suas paredes de perímetro mais grossas, ou fazendo sua entrada principal para a aldeia mais larga ou mais curta.~~Enquanto a contagem de monstros aumenta, seu labirinto se tornará cada vez mais congestionado, encorajando-os a atacar as paredes. Certifique-se de não estar fazendo um labirinto excessivamente longo e apertado. Dê-lhes algum espaço para respirar e eles continuarão indo para onde $GRE1você$WHI0 quer que eles vá"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
@@ -7570,10 +7519,8 @@ mobName:
   drone:
     single:
       text: "Drone"
-      forceCount: "true"
     plural:
       text: "Drones"
-      forceCount: "True"
   zombie:
     single:
       text: "Zumbi"
@@ -8043,6 +7990,11 @@ aiTask:
   clearoutResourceFromBuilding:
     pathfindToBuilding:
       text: "Removendo $YEL1{resourceName}$WHI0 no/a {buildingName}"
+      revision: "1"
+      
+  clearResourcesFromRoad:
+    pathfindToResource:
+      text: "Removendo $YEL1{resourceName}$WHI0 de uma estrada"
 
   clearTopographyFromRoadWork:
     pathfindToTopography:
@@ -8531,12 +8483,14 @@ aiTask:
       text: "Perambulando para dentro da aldeia"
   
   corruptionBuildingPlacement:
+    pathfindToTarget:
+      text: "Caminhando para uma área para criar uma nova estrutura"
     create:
-      text: "Criando nova estrutura"
+      text: "Criando uma nova construção"
       
   corruptionBuildWork:
     pathfindToBuilding:
-      text: "Indo construir {buildingName}"
+      text: "Caminhando ate {buildingName} para construir"
     build:
       text: "Construindo {buildingName}"
       
@@ -8853,6 +8807,7 @@ object:
           text: "Acampamento"
         description:
           text: "O núcleo de sua nova aldeia. Aumenta seu limite de estruturas, construtores e pode estocar qualquer recurso no jogo"
+          revision: "1"
       largeCamp:
         name:
           text: "Acampamento Grande"
@@ -9237,7 +9192,8 @@ object:
         name:
           text: "Combobulador de Cristal Improvisado"
         description:
-          text: "Uma estrutura que consome energia e cristais ao seu redor, criando golens de cristal que defendem sua aldeia com ataques à distância."
+          text: "Um edifício coletor que consome energia e cristais próximos, criando golens de cristal defensivos com um ataque à distância que protegerá a aldeia. Requer um fluxo constante de energia, ou os golems morrerão."
+          revision: "2"
       base:
         name:
           text: "Combobulador de Cristal"
@@ -9671,19 +9627,22 @@ object:
       name:
         text: "Cemitério Corrompido"
       description:
-        text: "Uma estrutura nefasta criada no interior da terra corrompida."
+        text: "Um edifício corrompido criado nas profundezas da terra corrompida. Aumenta as taxas de spawn dos monstros dentro da corrupção."
+        revision: "1"
     
     corruptedGraveyardMedium:
       name:
         text: "Cemitério Corrompido"
       description:
-        text: "Uma estrutura nefasta criada no interior da terra corrompida."
+        text: Um edifício corrompido criado nas profundezas da terra corrompida. Aumenta as taxas de spawn dos monstros dentro da corrupção."
+        revision: "1"
     
     corruptedGraveyardLarge:
       name:
         text: "Cemitério Corrompido"
       description:
-        text: "Uma estrutura nefasta criada no interior da terra corrompida."
+        text: "Um edifício corrompido criado nas profundezas da terra corrompida. Aumenta as taxas spawn dos monstros dentro da corrupção."
+        revision: "1"
     
     corruptedFireBowTower:
       name:
@@ -9713,25 +9672,29 @@ object:
       name:
         text: "Torre Corrompida de Dardos-Fantasma Flamejantes"
       description:
-        text: "Uma torre pequena que atira dardos mágicos e pode ser ultrapassada."
+        text: "Uma pequena torre corrompida que causa dano mágico de baixo nível e pode ser ultrapassada."
+        revision: "1"
     
     corruptedIcePhantomDartTower:
       name:
         text: "Torre Corrompida de Dardos-Fantasma Congelantes"
       description:
-        text: "Uma torre pequena que atira dardos mágicos e pode ser ultrapassada."
+        text: "Uma pequena torre corrompida que causa dano mágico de baixo nível e pode ser ultrapassada."
+        revision: "1"
     
     corruptedPoisonPhantomDartTower:
       name:
         text: "Torre Corrompida de Dardos-Fantasma Envenenados"
       description:
-        text: "Uma torre pequena que atira dardos mágicos e pode ser ultrapassada."
+        text: "Uma pequena torre corrompida que causa dano mágico de baixo nível e pode ser ultrapassada."
+        revision: "1"
     
     corruptedLightningPhantomDartTower:
       name:
         text: "Torre Corrompida de Dardos-Fantasma Elétricos"
       description:
-        text: "Uma torre pequena que atira dardos mágicos e pode ser ultrapassada."
+        text: "Uma pequena torre corrompida que causa dano mágico de baixo nível e pode ser ultrapassada."
+        revision: "1"
     
     corruptedLargeFirePit:
       name:
@@ -10215,7 +10178,8 @@ object:
         name:
           text: "Combobulador de Pedra Improvisado"
         description:
-          text: "Uma estrutura que consome energia e pedras ao seu redor, criando golens de pedra lentos mas com excelente defesa e muitos pontos de vida."
+          text: "Um edifício que consome energia e rochas próximas, criando golens de pedra defensivos com movimento lento, e com alto ponto de vida. Requer um fluxo constante de energia, ou os golems morrerão."
+          revision: "2"
       base:
         name:
           text: "Combobulador de Pedra"
@@ -10338,7 +10302,8 @@ object:
         name:
           text: "Combobulador de Madeira Improvisado"
         description:
-          text: "Uma estrutura que consome energia e madeira ao seu redor, criando golens de madeira com velocidade e pontos de vida moderados."
+          text: "Um edifício que consome energia e madeira próxima, criando golens de madeira defensivos com velocidade moderada, e com ponto de vida. Requer um fluxo constante de energia, ou os golems morrerão."
+          revision: "2"
       base:
         name:
           text: "Combobulador de Madeira"
