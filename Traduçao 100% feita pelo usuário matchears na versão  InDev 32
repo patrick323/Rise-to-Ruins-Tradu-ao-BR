@@ -5109,7 +5109,7 @@ playSelectedObjectUpgradePanel:
     text: "Spawns $GRE1{mobName}"
   maximumGolems:
     text: "Golens Maximos: $GRE1+{amount}"
-  spawnNeedsResourcesAndEnergy:
+  combobulatorNeedsResourcesAndEnergy:
     text: "Necessita $GRE1{resourceName}$WHI0 e $GRE1+{amount} Energy$WHI0 para Spawnar"
   rangeGenerated:
     text: "Área Gerada: $GRE1+{amount}"
