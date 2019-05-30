@@ -422,11 +422,11 @@ perkType:
     text: "Velocidade da Torre de Dardos-Fantasma"
   phantomDartTowerEnergyCost:
     text: "Custo Energético da Torre de Dardos-Fantasma"
-  recombobulatorTowerRange:
+  reCombobuladorTowerRange:
     text: "Alcance da Torre-Recombobulador"
-  recombobulatorTowerFireRate:
+  reCombobuladorTowerFireRate:
     text: "Velocidade da Torre-Recombobulador"
-  recombobulatorTowerEnergyCost:
+  reCombobuladorTowerEnergyCost:
     text: "Custo Energético da Torre-Recombobulador"
   slingTowerRange:
     text: "Alcance da Torre Estilingue"
@@ -3046,11 +3046,11 @@ mapEditorPlayRightPanel:
         text: "Quartel"
       outpost:
         text: "Guarita"
-      crystalGolemCombobulator:
+      crystalGolemCombobulador:
         text: "Combobulador de Cristal"
-      stoneGolemCombobulator:
+      stoneGolemCombobulador:
         text: "Combobulador de Pedra"
-      woodGolemCombobulator:
+      woodGolemCombobulador:
         text: "Combobulador de Madeira"
       
     towers:
@@ -3078,8 +3078,8 @@ mapEditorPlayRightPanel:
     defenseMiscellaneous:
       lightningRod:
         text: "Para-Raios"
-      recombobulatorTower:
-        text: "Torre-Recombobulator"
+      reCombobuladorTower:
+        text: "Torre-ReCombobulador"
       
     foodAndWater:
       bottler:
@@ -3172,8 +3172,8 @@ mapEditorPlayRightPanel:
     trash:
       burner:
         text: "Queimador"
-      cubeEGolemCombobulator:
-        text: "Cube-E Golem Combobulator"
+      cubeEGolemCombobulador:
+        text: "Cube-E Golem Combobulador"
       landfill:
         text: "Aterro"
       processor:
@@ -5253,7 +5253,7 @@ playStatisticsPanel:
     defenses:
       totalDefense:
         text: "Torres"
-      combobulators:
+      Combobuladors:
         text: "Combobuladores"
       golems:
         text: "Golens"
@@ -5414,11 +5414,11 @@ playStatisticsPanel:
     defenses:
       totalDefense:
         text: "Número total de torres na aldeia."
-      combobulatorsBarOne:
+      CombobuladorsBarOne:
         text: "Total de Golens"
-      combobulatorsBarTwo:
+      CombobuladorsBarTwo:
         text: "Total de Combobuladores"
-      combobulators:
+      Combobuladors:
         text: "Número total de golens e combobuladores."
       golems:
         text: "Quantos golens estão trabalhando na ou defendendo a aldeia."
@@ -5918,7 +5918,7 @@ playRightObjectDescriptionPanel:
     text: "Spawna $GRE1{mobName}"
   maximumGolems:
     text: "Golens Máximos: $GRE1{amount}"
-  combobulatorNeedsResourcesAndEnergy:
+  CombobuladorNeedsResourcesAndEnergy:
     text: "Precisa de $GRE1{resourceName}$WHI0 e $GRE1{amount} Energia$WHI0 para Spawnar"
   rangeGenerated:
     text: "Espaço Gerado: $GRE1{amount}"
@@ -7404,7 +7404,7 @@ missileName:
     text: "Raio-Imã"
   banishBolt:
     text: "Raio Teleporte"
-  recombobulatorBolt:
+  reCombobuladorBolt:
     text: "Raio Recombobulador"
   bowArrow:
     text: "Flecha de Arco"
@@ -8175,9 +8175,9 @@ aiTask:
       text: "Tentando entrar em {buildingName}"
       
   golemHealBehavior:
-    findRecombobulator:
+    findReCombobulador:
       text: "Procurando por recombobulador"
-    pathfindToRecombobulator:
+    pathfindToReCombobulador:
       text: "Indo para {buildingName} para se curar"
       
   golemPatrolBehavior:
@@ -8783,7 +8783,7 @@ objectOverlay:
   noProduction:
     text: "$YEL1Sem produção!"
   noSpawningResources:
-    comment: "This is almost exclusively used for combobulators to warn the player no usable materials are nearby"
+    comment: "This is almost exclusively used for Combobuladors to warn the player no usable materials are nearby"
     text: "$YEL1Sem {resourceName} por perto!"
   
   noResources:
@@ -9187,7 +9187,7 @@ object:
         description:
           text: "Aumenta o bônus global de velocidade para manufatura de curativos e medkits, aumenta capacidade de estoque e cria uma vaga adicional para médicos."
     
-    crystalGolemCombobulator:
+    crystalGolemCombobulador:
       makeshift:
         name:
           text: "Combobulador de Cristal Improvisado"
@@ -9206,7 +9206,7 @@ object:
           text: "Aumenta ainda mais quantos golens de cristal o combobulador pode manter, bem como aumenta o nível de todos golens spawnados com a desvantagem de aumentar o custo de energia de cada golem."
       lightning:
         name:
-          text: "Cobobulador de Cristal Elétrico"
+          text: "Combobulador de Cristal Elétrico"
         description:
           text: "Aumenta ainda mais quantos golens de cristal o combobulador pode manter, bem como aumenta o nível de todos golens spawnados e os dá ataques elétricos com a desvantagem de aumentar o custo de energia de cada golem."
       ice:
@@ -9287,16 +9287,16 @@ object:
         description:
           text: "Dá um bônus de velocidade global à manufatura de crilítio, aumenta a capacidade de estoque e cria uma vaga para cristiladores."
     
-    cubeEGolemCombobulator:
+    cubeEGolemCombobulador:
       makeshift:
         name:
-          text: "Combobulator de Golem Cubo-E improvisado"
+          text: "Combobulador de Golem Cubo-E improvisado"
         description:
-          text: "Um edifício de acolhimento que consome energia e lingotes de ferro nas proximidades, criando golens que podem fabricar cubos de lixo e construir estruturas baseadas em lixo. Requer um fluxo constante de energia, ou os golems morrerão."
+          text: "Um edifício coletor que consome energia e lingotes de ferro nas proximidades, criando golens que podem fabricar cubos de lixo e construir estruturas baseadas em lixo. Requer um fluxo constante de energia, ou os golems morrerão."
           revision: "2"
       base:
         name:
-          text: "Combobulator de Cube-E Golem"
+          text: "Combobulador de Cube-E Golem"
         description:
           text: "Aumenta quantos golens de cubo-e o combobulador pode manter, assim como aumenta os níveis de golems recém-gerados, mas custa um pouco mais de energia para produzir um novo golem."
       established:
@@ -10090,12 +10090,12 @@ object:
         description:
           text: "Aumenta ainda mais a quantidade de água o coletor de chuva pode estocar, e cria vagas adicionais para mestres de água."
     
-    recombobulatorTower:
+    reCombobuladorTower:
       makeshift:
         name:
           text: "Torre Recombobuladora Improvisada"
         description:
-          text: "Uma torra que irá atrair golens amigáveis e curar seus danos. Requer um coletor de essência."
+          text: "Uma torre que irá atrair golens amigáveis e curar seus danos. Requer um coletor de essência."
       base:
         name:
           text: "Torre Recombobuladora"
@@ -10173,7 +10173,7 @@ object:
         description:
           text: "Aumenta o bônus global à velocidade de polimento, aumenta a capacidade de estoque e cria uma vaga adicional para polidores."
     
-    stoneGolemCombobulator:
+    stoneGolemCombobulador:
       makeshift:
         name:
           text: "Combobulador de Pedra Improvisado"
@@ -10297,7 +10297,7 @@ object:
         description:
           text: "Aumenta geração de água e capacidade de estoque, bem como cria uma vaga adicional para mestre de água."
     
-    woodGolemCombobulator:
+    woodGolemCombobulador:
       makeshift:
         name:
           text: "Combobulador de Madeira Improvisado"
